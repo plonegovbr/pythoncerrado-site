@@ -1,0 +1,78 @@
+name: Deploy
+
+on:
+  workflow_call:
+    inputs:
+      backend-image:
+        required: false
+        type: string
+      backend-tag:
+        required: false
+        type: string
+      backend-deploy:
+        required: false
+        type: boolean
+        default: false
+      backend-tag-variable:
+        required: false
+        type: string
+        default: tag
+      frontend-image:
+        required: false
+        type: string
+      frontend-tag:
+        required: false
+        type: string
+      frontend-deploy:
+        required: false
+        type: boolean
+        default: false
+      frontend-tag-variable:
+        required: false
+        type: string
+        default: tag
+    secrets:
+      backend-webhook:
+        required: false
+      frontend-webhook:
+        required: false
+
+jobs:
+  deploy-backend:
+    name: "Deploy: Backend ${{ inputs.backend-image }}:${{ inputs.backend-tag }}"
+    if: ${{ inputs.backend-deploy }}
+    runs-on: ubuntu-latest
+    steps:
+      # The tag parameter makes Portainer switch the service image to this tag
+      - name: Trigger backend deployment webhook
+        uses: distributhor/workflow-webhook@v3
+        with:
+          webhook_url: ${{ secrets.backend-webhook }}?${{ inputs.backend-tag-variable }}=${{ inputs.backend-tag }}
+          webhook_secret: deploy
+
+  deploy-frontend:
+    name: "Deploy: Frontend ${{ inputs.frontend-image }}:${{ inputs.frontend-tag }}"
+    if: ${{ inputs.frontend-deploy }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger frontend deployment webhook
+        uses: distributhor/workflow-webhook@v3
+        with:
+          webhook_url: ${{ secrets.frontend-webhook }}?${{ inputs.frontend-tag-variable }}=${{ inputs.frontend-tag }}
+          webhook_secret: deploy
+
+  report:
+    name: "Final report"
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    needs:
+      - deploy-backend
+      - deploy-frontend
+    steps:
+      - name: Write report
+        run: |
+          echo '# Deploy Report' >> $GITHUB_STEP_SUMMARY
+          echo '| Job ID | Conclusion |' >> $GITHUB_STEP_SUMMARY
+          echo '| --- | --- |' >> $GITHUB_STEP_SUMMARY
+          echo '| deploy-backend | ${{ needs.deploy-backend.result }} |' >> $GITHUB_STEP_SUMMARY
+          echo '| deploy-frontend | ${{ needs.deploy-frontend.result }} |' >> $GITHUB_STEP_SUMMARY

@@ -47,6 +47,29 @@ jobs:
       contents: write
       packages: write
 
+  # Deploys to production only what this push built: the paths filter in
+  # config skips the unchanged side, whose sha- image tag does not exist.
+  deploy:
+    uses: ./.github/workflows/deploy.yml
+    needs:
+      - config
+      - backend
+      - frontend
+    if: |
+      always() &&
+      github.ref == 'refs/heads/main' &&
+      (needs.backend.result == 'success' || needs.frontend.result == 'success')
+    with:
+      backend-image: ${{ needs.config.outputs.image-name-prefix }}-backend
+      backend-tag: ${{ needs.config.outputs.base-tag }}
+      backend-deploy: ${{ needs.backend.result == 'success' }}
+      frontend-image: ${{ needs.config.outputs.image-name-prefix }}-frontend
+      frontend-tag: ${{ needs.config.outputs.base-tag }}
+      frontend-deploy: ${{ needs.frontend.result == 'success' }}
+    secrets:
+      backend-webhook: ${{ secrets.WEBHOOK_BACKEND }}
+      frontend-webhook: ${{ secrets.WEBHOOK_FRONTEND }}
+
   report:
     name: "Final report"
     if: ${{ always() }}
@@ -55,6 +78,7 @@ jobs:
       - config
       - backend
       - frontend
+      - deploy
     steps:
       - name: Write report
         run: |
@@ -64,3 +88,4 @@ jobs:
           echo '| config | ${{ needs.config.result }} |' >> $GITHUB_STEP_SUMMARY
           echo '| backend | ${{ needs.backend.result }} |' >> $GITHUB_STEP_SUMMARY
           echo '| frontend | ${{ needs.frontend.result }} |' >> $GITHUB_STEP_SUMMARY
+          echo '| deploy | ${{ needs.deploy.result }} |' >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,1 @@
+Faz deploy em produção a cada push no `main`, via webhooks do Portainer, fixando cada serviço na imagem `sha-<commit>` construída no push. @ericof
