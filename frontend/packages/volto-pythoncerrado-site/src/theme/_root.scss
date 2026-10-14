@@ -1,0 +1,101 @@
+body.section-2026 {
+  --link-foreground-color: var(--accent-color);
+
+  // Tech Event colors follow the selected theme (light and dark modes)
+  --techevent-presenter-category-background-color: var(--neutral-color);
+  --techevent-presenter-category-color: var(--neutral-foreground-color);
+  --techevent-vocabulary-foreground-color: var(--accent-foreground-color);
+  --techevent-session-track-foreground-color: var(--accent-foreground-color);
+  --techevent-schedule-color: var(--accent-color);
+  --techevent-schedule-border-color: var(--neutral-color);
+  --techevent-schedule-room-color: var(--primary-foreground-color);
+  --techevent-schedule-secondary-color: var(--neutral-color);
+  --techevent-schedule-reverse-color: var(--accent-foreground-color);
+  --techevent-schedule-gap: 2px;
+  --techevent-sessionTile-background-color: var(--neutral-color);
+  --techevent-sessionTile-color: var(--neutral-foreground-color);
+  --techevent-slotInfo-color: var(--neutral-low-foreground-color);
+}
+
+// Hide the breadcrumb for tech event content type
+body.contenttype-tech-event {
+  .breadcrumbs {
+    display: none;
+  }
+}
+
+.header-wrapper {
+  margin-bottom: 20px;
+  .header {
+    margin-top: 20px;
+  }
+}
+
+.block.schedule {
+  > .q.container.title {
+    margin-bottom: 40px;
+  }
+}
+
+// Button block as a call to action: rounded, filled with the theme accent
+// color, lifting on hover. Covers internal (a.button) and external
+// (a.external.button) links. The container classes outrank Volto Light
+// Theme's `body .block.__button > .button.container a` colors.
+.block.__button :is(.button.container, .block-inner-container) a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  border: 2px solid var(--accent-color);
+  border-radius: 999px;
+  background-color: var(--accent-color);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+  color: var(--accent-foreground-color);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--accent-color);
+    background-color: var(--accent-foreground-color);
+    box-shadow: 0 10px 24px rgb(0 0 0 / 25%);
+    color: var(--accent-color);
+    transform: translateY(-3px);
+  }
+
+  &:active {
+    box-shadow: 0 4px 12px rgb(0 0 0 / 20%);
+    transform: translateY(-1px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+
+    &:hover,
+    &:focus-visible,
+    &:active {
+      transform: none;
+    }
+  }
+}
+
+// On a colored block background the accent fill would blend in: invert it
+.block.__button:not(.has--background-color--default)
+  :is(.button.container, .block-inner-container)
+  a.button {
+  border-color: var(--accent-foreground-color);
+  background-color: var(--accent-foreground-color);
+  color: var(--accent-color);
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--accent-foreground-color);
+    background-color: transparent;
+    color: var(--accent-foreground-color);
+  }
+}

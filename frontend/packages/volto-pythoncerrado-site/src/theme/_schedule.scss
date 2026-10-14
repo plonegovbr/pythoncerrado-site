@@ -1,0 +1,32 @@
+// The schedule paints some areas with fixed or "reverse" (white) colors that
+// ignore the page background, which breaks dark mode. Use the page color.
+#main .schedule {
+  // Semantic UI segment holding the day tabs
+  .ui.segment.tab-container {
+    background: transparent;
+  }
+
+  .tab .tabular.menu .item:not(.active) {
+    background-color: transparent;
+  }
+
+  // Placeholder circle above the time line
+  .day-header .aside-indication .icon-type {
+    background-color: transparent;
+  }
+
+  .aside-indication {
+    .icon-type {
+      box-shadow:
+        0px 0px 0px 2px var(--techevent-schedule-color),
+        0px 0px 0px 6px var(--techevent-schedule-color),
+        0px 0px 0px 8px var(--primary-color),
+        0px 0px 0px 10px var(--techevent-schedule-secondary-color),
+        0px 0px 0px 14px var(--primary-color);
+    }
+
+    .time-indication {
+      background: var(--primary-color);
+    }
+  }
+}

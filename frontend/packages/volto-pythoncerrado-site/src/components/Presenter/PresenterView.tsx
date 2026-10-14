@@ -1,0 +1,84 @@
+import React from 'react';
+import SocialNetworks from '@plonegovbr/volto-social-media/components/SocialNetworks/SocialNetworks';
+import DefaultImageSVG from '@plone/volto/components/manage/Blocks/Listing/default-image.svg';
+import { Container } from '@plone/components';
+import type { PresenterItem } from '@plone-collective/volto-techevent/components/Presenter/types';
+import PresenterCategory from '@plone-collective/volto-techevent/components/Presenter/PresenterCategory';
+import PresenterActivities from '@plone-collective/volto-techevent/components/Presenter/PresenterActivities';
+import Card from '@plone-collective/volto-techevent/components/primitives/Card/Card';
+
+interface PresenterViewProps {
+  content: PresenterItem;
+}
+
+/**
+ * PresenterView view component.
+ *
+ * Local copy of the `@plone-collective/volto-techevent` Presenter view, with
+ * the presenter's social networks.
+ * @function PresenterView
+ * @param content - Content object.
+ * @returns Markup of the component.
+ */
+const PresenterView: React.FC<PresenterViewProps> = ({ content }) => {
+  const hasImage = Boolean(content?.image);
+  const imgProps = hasImage
+    ? { item: { ...content, image_field: 'image' } }
+    : { src: DefaultImageSVG };
+  const { title, description, text, social_links, activities } = content;
+  const descriptionLines = description ? description.split('\n') : [];
+
+  return (
+    <Container id="page-document" className="view-wrapper presenter-view">
+      <Container className={'wrapper has--align--left'}>
+        <Card className="profile">
+          <Card.Image {...imgProps} />
+          <Card.Summary>
+            <Container className="presenter-labels">
+              {content.categories &&
+                content.categories.map((category, idx) => {
+                  return <PresenterCategory label={category} key={idx} />;
+                })}
+            </Container>
+            <h2 className="presenter-name">{title}</h2>
+
+            {descriptionLines.length > 0 && (
+              <Container className="presenterDescription">
+                <p className="documentDescription">
+                  {descriptionLines.map((line, idx) => (
+                    <React.Fragment key={idx}>
+                      <span>{line}</span>
+                      <br />
+                    </React.Fragment>
+                  ))}
+                </p>
+              </Container>
+            )}
+
+            {text?.data && (
+              <Container
+                className="presenterText"
+                dangerouslySetInnerHTML={{ __html: text.data }}
+              >
+                {/* Container requires children; the HTML is set above. */}
+                {undefined}
+              </Container>
+            )}
+            {social_links && social_links.length > 0 && (
+              <Container className="presenterLinks">
+                <SocialNetworks networks={social_links} />
+              </Container>
+            )}
+          </Card.Summary>
+        </Card>
+        {activities && activities?.length > 0 && (
+          <Container className="presenterActivities">
+            <PresenterActivities activities={activities} />
+          </Container>
+        )}
+      </Container>
+    </Container>
+  );
+};
+
+export default PresenterView;
