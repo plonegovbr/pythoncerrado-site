@@ -1,87 +1,108 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../docs/pythoncerrado-2026-logo-dark.png">
+    <img alt="Python Cerrado 2026" src="../docs/pythoncerrado-2026-logo-light.png" width="360">
+  </picture>
+</p>
+
 # pythoncerrado.site
 
-Site da Python Cerrado
+Backend do site da [Python Cerrado](https://pythoncerrado.org): instalação do Plone 6 e o pacote de política `pythoncerrado.site`.
 
-## Features
+## O que o pacote faz
 
-TODO: List our awesome features
+- Instala e configura os add-ons do site: `collective.techevent`, `sc.voltolighttheme`, `sc.videos`, `plone.formblock` e `plonegovbr.socialmedia`.
+- Registra os três temas da edição 2026 no painel **Temas** do `sc.voltolighttheme`:
 
-## Installation
+  | Id | Nome | Cor de destaque |
+  | --- | --- | --- |
+  | `pythoncerrado-2026` | Python Cerrado 2026 (Vereda) | `#0f6b55` |
+  | `pythoncerrado-2026-terra-vermelha` | Python Cerrado 2026 — Terra vermelha | `#b23a12` |
+  | `pythoncerrado-2026-ipe` | Python Cerrado 2026 — Ipê | `#5b2a86` |
 
-Install pythoncerrado.site with uv.
+  Os valores ficam em [`themes.py`](./src/pythoncerrado/site/themes.py) e no registro do profile, em [`sc.voltolighttheme.themes.xml`](./src/pythoncerrado/site/profiles/default/registry/sc.voltolighttheme.themes.xml). Os testes conferem que os dois estão iguais.
+  A edição `/2026` usa o tema Vereda; os outros dois ficam disponíveis para troca pelo painel, sem deploy.
+  O registro de tema não guarda o logo: ao trocar de tema, troque também o logo de `/2026` pelo par correspondente em [`docs/`](../docs/).
 
-```shell
-uv add pythoncerrado.site
-```
+- Traz o conteúdo de exemplo da edição 2026 (profile `pythoncerrado.site:initial`), em formato [`plone.exportimport`](https://github.com/plone/plone.exportimport), na pasta [`setuphandlers/examplecontent`](./src/pythoncerrado/site/setuphandlers/examplecontent/).
 
-Create the Plone site.
+## Desenvolvimento
 
-```shell
-make create-site
-```
+### Pré-requisitos ✅
 
-## Contribute
-
-- [Issue tracker](https://github.com/plonegovbr/pythoncerrado-site/issues)
-- [Source code](https://github.com/plonegovbr/pythoncerrado-site/)
-
-### Prerequisites ✅
-
--   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
+-   Um [sistema operacional](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) que atenda aos requisitos abaixo.
 -   [uv](https://6.docs.plone.org/install/create-project-cookieplone.html#uv)
 -   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
 -   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
--   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
+-   [Docker](https://docs.docker.com/get-started/get-docker/) (opcional)
 
-### Installation 🔧
+### Instalação 🔧
 
-1.  Clone this repository.
+1.  Clone o repositório e entre no diretório do backend.
 
     ```shell
     git clone git@github.com:plonegovbr/pythoncerrado-site.git
     cd pythoncerrado-site/backend
     ```
 
-2.  Install this code base.
+2.  Instale o Plone e as dependências.
 
     ```shell
     make install
     ```
 
+3.  Crie o site Plone com o conteúdo de exemplo.
 
-### Add features using `plonecli` or `bobtemplates.plone`
+    ```shell
+    make create-site
+    ```
 
-This package provides markers as strings (`<!-- extra stuff goes here -->`) that are compatible with [`plonecli`](https://github.com/plone/plonecli) and [`bobtemplates.plone`](https://github.com/plone/bobtemplates.plone).
-These markers act as hooks to add all kinds of features through subtemplates, including behaviors, control panels, upgrade steps, or other subtemplates from `bobtemplates.plone`.
-`plonecli` is a command line client for `bobtemplates.plone`, adding autocompletion and other features.
+4.  Inicie o Plone em http://localhost:8080/.
 
-To add a feature as a subtemplate to your package, use the following command pattern.
+    ```shell
+    make start
+    ```
 
-```shell
-make add <template_name>
-```
+### Conteúdo de exemplo
 
-For example, you can add a content type to your package with the following command.
-
-```shell
-make add content_type
-```
-
-You can add a behavior with the following command.
+O conteúdo de exemplo é mantido num site local e exportado para dentro do pacote:
 
 ```shell
-make add behavior
+make update-example-content
 ```
 
-```{seealso}
-You can check the list of available subtemplates in the [`bobtemplates.plone` `README.md` file](https://github.com/plone/bobtemplates.plone/?tab=readme-ov-file#provided-subtemplates).
-See also the documentation of [Mockup and Patternslib](https://6.docs.plone.org/classic-ui/mockup.html) for how to build the UI toolkit for Classic UI.
+### Testes e qualidade de código
+
+```shell
+make test
+make format
+make lint
 ```
 
-## License
+Execute `make help` para ver todos os comandos disponíveis.
 
-The project is licensed under GPLv2.
+### Adicionando funcionalidades com `plonecli`
 
-## Credits and acknowledgements 🙏
+O pacote traz marcadores (`<!-- extra stuff goes here -->`) compatíveis com o [`plonecli`](https://github.com/plone/plonecli) e o [`bobtemplates.plone`](https://github.com/plone/bobtemplates.plone).
+Eles permitem adicionar comportamentos, painéis de controle, tipos de conteúdo e outros subtemplates:
 
-Generated using [Cookieplone (2.0.2)](https://github.com/plone/cookieplone) and [cookieplone-templates (19d0792)](https://github.com/plone/cookieplone-templates/commit/19d07923b43f38bc80271aab3d4ea54388fa9d23) on 2026-10-13 14:40:18.586880. A special thanks to all contributors and supporters!
+```shell
+make add <template>
+```
+
+Por exemplo, `make add content_type` ou `make add behavior`.
+A lista completa está no [README do `bobtemplates.plone`](https://github.com/plone/bobtemplates.plone/?tab=readme-ov-file#provided-subtemplates).
+
+## Contribua
+
+- [Issues](https://github.com/plonegovbr/pythoncerrado-site/issues)
+- [Código-fonte](https://github.com/plonegovbr/pythoncerrado-site/)
+
+## Licença
+
+O projeto é distribuído sob a licença GPLv2.
+
+## Créditos 🙏
+
+Mantido pela comunidade [PloneGov-BR](https://plone.org.br).
+Projeto gerado com [Cookieplone](https://github.com/plone/cookieplone) e [cookieplone-templates](https://github.com/plone/cookieplone-templates/).

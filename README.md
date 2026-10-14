@@ -1,149 +1,139 @@
-# Python Cerrado 🚀
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/pythoncerrado-2026-logo-dark.png">
+    <img alt="Python Cerrado 2026" src="docs/pythoncerrado-2026-logo-light.png" width="420">
+  </picture>
+</p>
+
+# Python Cerrado
 
 [![Built with Cookieplone](https://img.shields.io/badge/built%20with-Cookieplone-0083be.svg?logo=cookiecutter)](https://github.com/plone/cookieplone-templates/)
-[![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![CI](https://github.com/plonegovbr/pythoncerrado-site/actions/workflows/main.yml/badge.svg)](https://github.com/plonegovbr/pythoncerrado-site/actions/workflows/main.yml)
 
-Site da Python Cerrado
+Site da [Python Cerrado](https://pythoncerrado.org), o encontro da comunidade Python do Centro-Oeste do Brasil.
+A edição de 2026 acontece em **06 e 07 de novembro de 2026, em Brasília, DF**.
 
-## Quick Start 🏁
+O site é feito com [Plone 6](https://plone.org) e [Volto](https://6.docs.plone.org/volto/).
+Cada edição do evento é uma raiz de navegação do mesmo site (`/2026`, `/2025`, …), com logo e tema próprios.
 
-### Prerequisites ✅
+## Início rápido 🏁
 
--   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
+### Pré-requisitos ✅
+
+-   Um [sistema operacional](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) que atenda aos requisitos abaixo.
 -   [uv](https://6.docs.plone.org/install/create-project-cookieplone.html#uv)
 -   [nvm](https://6.docs.plone.org/install/create-project-cookieplone.html#nvm)
--   [Node.js and pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 24
+-   [Node.js e pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 24
 -   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
 -   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
--   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
+-   [Docker](https://docs.docker.com/get-started/get-docker/) (opcional)
 
+### Instalação 🔧
 
-### Installation 🔧
-
-1.  Clone this repository, then change your working directory.
+1.  Clone o repositório e entre no diretório.
 
     ```shell
     git clone git@github.com:plonegovbr/pythoncerrado-site.git
     cd pythoncerrado-site
     ```
 
-2.  Install this code base.
+2.  Instale o backend e o frontend.
 
     ```shell
     make install
     ```
 
+### Subindo os servidores 🔥
 
-### Fire Up the Servers 🔥
-
-1.  Create a new Plone site on your first run.
+1.  Na primeira execução, crie o site Plone com o conteúdo de exemplo.
 
     ```shell
     make backend-create-site
     ```
 
-2.  Start the backend at http://localhost:8080/.
+2.  Inicie o backend em http://localhost:8080/.
 
     ```shell
     make backend-start
     ```
 
-3.  In a new shell session, start the frontend at http://localhost:3000/.
+3.  Em outro terminal, inicie o frontend em http://localhost:3000/.
 
     ```shell
     make frontend-start
     ```
 
-Voila! Your Plone site should be live and kicking! 🎉
+### Stack local com Docker 📦
 
-### Local Stack Deployment 📦
+O `docker-compose.yml` sobe um ambiente completo com:
 
-Deploy a local Docker Compose environment that includes the following.
-
-- Docker images for Backend and Frontend 🖼️
-- A stack with a Traefik router and a PostgreSQL database 🗃️
-- Accessible at [http://pythoncerrado-site.localhost](http://pythoncerrado-site.localhost) 🌐
-
-Run the following commands in a shell session.
+- as imagens do backend e do frontend;
+- um roteador Traefik e um servidor ZEO para o banco de dados;
+- acesso em [http://pythoncerrado-site.localhost](http://pythoncerrado-site.localhost).
 
 ```shell
 make stack-create-site
 make stack-start
 ```
 
-And... you're all set! Your Plone site is up and running locally! 🚀
+Use `make stack-status` para ver os serviços, `make stack-stop` para pará-los e `make stack-rm` para removê-los junto com os volumes.
 
-## Project structure 🏗️
+## Estrutura do projeto 🏗️
 
-This monorepo consists of the following distinct sections:
+Este monorepo tem as seguintes partes:
 
-- **backend**: Houses the API and Plone installation, utilizing pip instead of buildout, and includes a policy package named pythoncerrado.site.
-- **frontend**: Contains the React (Volto) package.
-- **devops**: Encompasses Docker stack, Ansible playbooks, and cache settings.
-- **docs**: Scaffold for writing documentation for your project.
+- **[backend](./backend/)**: instalação do Plone (com uv, sem buildout) e o pacote de política `pythoncerrado.site`, que configura o site, registra os temas da edição 2026 e traz o conteúdo de exemplo.
+- **[frontend](./frontend/)**: o add-on Volto `volto-pythoncerrado-site`, que reúne o tema e os add-ons do site.
+- **[devops](./devops/)**: a stack Docker de produção (`devops/stacks/pythoncerrado.org.yml`) e instruções para pipelines no GitLab.
+- **[docs](./docs/)**: os logos da edição 2026 nas três variações de tema (Vereda, Terra vermelha e Ipê), em versões para fundo claro e escuro.
 
-### Why this structure? 🤔
+### Add-ons principais
 
-- All necessary codebases to run the site are contained within the repository (excluding existing add-ons for Plone and React).
-- Specific GitHub Workflows are triggered based on changes in each codebase (refer to .github/workflows).
-- Simplifies the creation of Docker images for each codebase.
-- Demonstrates Plone installation/setup without buildout.
+| Parte | Add-on | Para quê |
+| --- | --- | --- |
+| backend | [`collective.techevent`](https://github.com/collective/tech-event) | Evento, grade, palestras, palestrantes e patrocinadores |
+| backend | [`sc.voltolighttheme`](https://github.com/simplesconsultoria/sc-volto-light-theme) | Painel de temas, cabeçalho e rodapé configuráveis |
+| frontend | [`@plone-collective/volto-techevent`](https://github.com/collective/tech-event) | Blocos e visões do tech-event |
+| frontend | [`@simplesconsultoria/volto-light-theme`](https://github.com/simplesconsultoria/sc-volto-light-theme) | Tema baseado no `@kitconcept/volto-light-theme` |
 
-## Code quality assurance 🧐
+## Qualidade de código 🧐
 
-To check your code against quality standards, run the following shell command.
+Para formatar o código e verificar se ele segue os padrões do projeto:
 
 ```shell
 make check
 ```
 
-### Format the codebase
+`make check` executa `make format` e depois `make lint`. Os dois também podem ser executados separadamente, aqui ou dentro de `backend` e `frontend`.
 
-To format and rewrite the code base, ensuring it adheres to quality standards, run the following shell command.
+| Parte | Ferramenta | Função | Configuração |
+| --- | --- | --- | --- |
+| backend | Ruff | Formatação e lint de Python, ordenação de imports | [`backend/pyproject.toml`](./backend/pyproject.toml) |
+| backend | `zpretty` | Formatação de XML e ZCML | -- |
+| backend | Pyroma | Metadados do pacote Python | -- |
+| backend | check-python-versions | Versões de Python declaradas | -- |
+| frontend | ESLint | Lint de JavaScript e TypeScript | [`frontend/.eslintrc.js`](./frontend/.eslintrc.js) |
+| frontend | Prettier | Formatação de JavaScript e TypeScript | [`frontend/.prettierrc`](./frontend/.prettierrc) |
+| frontend | Stylelint | Formatação de estilos (CSS, Less, Sass) | [`frontend/.stylelintrc`](./frontend/.stylelintrc) |
+
+## Testes 🧪
 
 ```shell
-make format
+make test
 ```
 
-| Section | Tool | Description | Configuration |
-| --- | --- | --- | --- |
-| backend | Ruff | Python code formatting, imports sorting  | [`backend/pyproject.toml`](./backend/pyproject.toml) |
-| backend | `zpretty` | XML and ZCML formatting  | -- |
-| frontend | ESLint | Fixes most common frontend issues | [`frontend/.eslintrc.js`](.frontend/.eslintrc.js) |
-| frontend | prettier | Format JS and Typescript code  | [`frontend/.prettierrc`](.frontend/.prettierrc) |
-| frontend | Stylelint | Format Styles (css, less, sass)  | [`frontend/.stylelintrc`](.frontend/.stylelintrc) |
+Executa os testes do backend (pytest) e do frontend (Vitest). Use `make backend-test` ou `make frontend-test` para rodar só uma das partes.
 
-Formatters can also be run within the `backend` or `frontend` folders.
+## Internacionalização 🌐
 
-### Linting the codebase
-or `lint`:
-
- ```shell
-make lint
-```
-
-| Section | Tool | Description | Configuration |
-| --- | --- | --- | --- |
-| backend | Ruff | Checks code formatting, imports sorting  | [`backend/pyproject.toml`](./backend/pyproject.toml) |
-| backend | Pyroma | Checks Python package metadata  | -- |
-| backend | check-python-versions | Checks Python version information  | -- |
-| backend | `zpretty` | Checks XML and ZCML formatting  | -- |
-| frontend | ESLint | Checks JS / Typescript lint | [`frontend/.eslintrc.js`](.frontend/.eslintrc.js) |
-| frontend | prettier | Check JS / Typescript formatting  | [`frontend/.prettierrc`](.frontend/.prettierrc) |
-| frontend | Stylelint | Check Styles (css, less, sass) formatting  | [`frontend/.stylelintrc`](.stylelintrc) |
-
-Linters can be run individually within the `backend` or `frontend` folders.
-
-
-## Internationalization 🌐
-
-Generate translation files for Plone and Volto with ease:
+O site é publicado apenas em português do Brasil. Para atualizar os arquivos de tradução do Plone e do Volto:
 
 ```shell
 make i18n
 ```
 
-## Credits and acknowledgements 🙏
+## Créditos 🙏
 
-Generated using [Cookieplone (2.0.2)](https://github.com/plone/cookieplone) and [cookieplone-templates (19d0792)](https://github.com/plone/cookieplone-templates/commit/19d07923b43f38bc80271aab3d4ea54388fa9d23) on 2026-10-13 14:40:18.586880. A special thanks to all contributors and supporters!
+Mantido pela comunidade [PloneGov-BR](https://plone.org.br).
+
+Projeto gerado com [Cookieplone (2.0.2)](https://github.com/plone/cookieplone) e [cookieplone-templates (19d0792)](https://github.com/plone/cookieplone-templates/commit/19d07923b43f38bc80271aab3d4ea54388fa9d23) em 13/10/2026.

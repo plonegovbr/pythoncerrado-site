@@ -1,195 +1,125 @@
-# Python Cerrado (volto-pythoncerrado-site)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../docs/pythoncerrado-2026-logo-dark.png">
+    <img alt="Python Cerrado 2026" src="../docs/pythoncerrado-2026-logo-light.png" width="360">
+  </picture>
+</p>
 
-Site da Python Cerrado
+# volto-pythoncerrado-site
 
-[![npm](https://img.shields.io/npm/v/volto-pythoncerrado-site)](https://www.npmjs.com/package/volto-pythoncerrado-site)
-[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://plonegovbr.github.io/volto-pythoncerrado-site/)
 [![CI](https://github.com/plonegovbr/pythoncerrado-site/actions/workflows/main.yml/badge.svg)](https://github.com/plonegovbr/pythoncerrado-site/actions/workflows/main.yml)
 
+Frontend do site da [Python Cerrado](https://pythoncerrado.org): o add-on Volto `volto-pythoncerrado-site`.
 
-## Features
+## O que o add-on faz
 
-<!-- List your awesome features here -->
+- Reúne os add-ons do site:
+  - `@simplesconsultoria/volto-light-theme`, sobre o `@kitconcept/volto-light-theme` (o tema do Volto);
+  - `@plone-collective/volto-techevent`, com os blocos e as visões de evento, grade, palestras, palestrantes e patrocinadores;
+  - `@simplesconsultoria/volto-videos`, `@plone-collective/volto-image-editor` e `@plone/volto-form-block`.
+- Carrega a fonte [Outfit](https://fonts.google.com/specimen/Outfit) (pesos 300 a 700, via [`@fontsource/outfit`](https://fontsource.org/fonts/outfit)), usada pelos três temas da edição 2026.
 
-## Installation
+As cores vêm do tema escolhido no painel **Temas**, no backend. O add-on não define cores próprias.
 
-To install your project, you must choose the method appropriate to your version of Volto.
+O pacote não é publicado no npm. Ele existe para ser usado neste repositório.
 
+## Desenvolvimento
 
-### Volto 18 and later
+O desenvolvimento usa workspaces do pnpm e o `mrs-developer` para trazer o código do Volto (`core/`). Funciona apenas com pnpm.
 
-Add `volto-pythoncerrado-site` to your `package.json`.
+### Pré-requisitos ✅
 
-```json
-"dependencies": {
-    "volto-pythoncerrado-site": "*"
-}
-```
-
-Add `volto-pythoncerrado-site` to your `volto.config.js`.
-
-```javascript
-const addons = ['volto-pythoncerrado-site'];
-```
-
-If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`.
-
-```javascript
-const theme = 'volto-pythoncerrado-site';
-```
-
-### Volto 17 and earlier
-
-Create a new Volto project.
-You can skip this step if you already have one.
-
-```
-npm install -g yo @plone/generator-volto
-yo @plone/volto my-volto-project --addon volto-pythoncerrado-site
-cd my-volto-project
-```
-
-Add `volto-pythoncerrado-site` to your `package.json`.
-
-```JSON
-"addons": [
-    "volto-pythoncerrado-site"
-],
-
-"dependencies": {
-    "volto-pythoncerrado-site": "*"
-}
-```
-
-Download and install the new add-on.
-
-```
-yarn install
-```
-
-Start Volto.
-
-```
-yarn start
-```
-
-## Test installation
-
-Visit http://localhost:3000/ in a browser, login, and check the awesome new features.
-
-
-## Development
-
-The development of this add-on is done in isolation using pnpm workspaces, the latest `mrs-developer`, and other Volto core improvements.
-For these reasons, it only works with pnpm and Volto 18.
-
-
-### Prerequisites ✅
-
--   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
+-   Um [sistema operacional](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) que atenda aos requisitos abaixo.
 -   [nvm](https://6.docs.plone.org/install/create-project-cookieplone.html#nvm)
--   [Node.js and pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 24
+-   [Node.js e pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 24
 -   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
 -   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
--   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
+-   [Docker](https://docs.docker.com/get-started/get-docker/) (opcional)
 
-### Installation 🔧
+### Instalação 🔧
 
-1.  Clone this repository, then change your working directory.
+1.  Clone o repositório e entre no diretório do frontend.
 
     ```shell
     git clone git@github.com:plonegovbr/pythoncerrado-site.git
     cd pythoncerrado-site/frontend
     ```
 
-2.  Install this code base.
+2.  Instale as dependências.
 
     ```shell
     make install
     ```
 
+Execute `make help` para ver todos os comandos disponíveis.
 
-### Make convenience commands
+### Subindo o ambiente
 
-Run `make help` to list the available Make commands.
-
-
-### Set up development environment
-
-Install package requirements.
-
-```shell
-make install
-```
-
-### Start developing
-
-Start the backend.
+Inicie um backend. Pode ser o do diretório [`backend`](../backend/) (`make start` lá) ou um em Docker:
 
 ```shell
 make backend-docker-start
 ```
 
-In a separate terminal session, start the frontend.
+Em outro terminal, inicie o frontend em http://localhost:3000/:
 
 ```shell
 make start
 ```
 
-### Lint code
+### Lint e formatação
 
-Run ESlint, Prettier, and Stylelint in analyze mode.
+Executa ESLint, Prettier e Stylelint, só verificando (`lint`) ou corrigindo (`format`):
 
 ```shell
 make lint
-```
-
-### Format code
-
-Run ESlint, Prettier, and Stylelint in fix mode.
-
-```shell
 make format
 ```
 
-### i18n
+### Traduções
 
-Extract the i18n messages to locales.
+Extrai as mensagens para os arquivos de tradução:
 
 ```shell
 make i18n
 ```
 
-### Unit tests
-
-Run unit tests.
+### Testes unitários
 
 ```shell
 make test
 ```
 
-### Run Cypress tests
+### Testes de aceitação (Cypress)
 
-Run each of these steps in separate terminal sessions.
+Execute cada passo em um terminal separado.
 
-In the first session, start the frontend in development mode.
+1.  Inicie o frontend em modo de desenvolvimento.
+
+    ```shell
+    make acceptance-frontend-dev-start
+    ```
+
+2.  Inicie o servidor de aceitação do backend.
+
+    ```shell
+    make acceptance-backend-start
+    ```
+
+3.  Abra o Cypress em modo interativo.
+
+    ```shell
+    make acceptance-test
+    ```
+
+### Storybook
 
 ```shell
-make acceptance-frontend-dev-start
+make storybook-start
 ```
 
-In the second session, start the backend acceptance server.
+O Storybook fica em http://localhost:6006/.
 
-```shell
-make acceptance-backend-start
-```
+## Licença
 
-In the third session, start the Cypress interactive test runner.
-
-```shell
-make acceptance-test
-```
-
-## License
-
-The project is licensed under the MIT license.
+O projeto é distribuído sob a licença MIT.
