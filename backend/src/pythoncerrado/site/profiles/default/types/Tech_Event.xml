@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="Tech Event"
+        i18n:domain="collective.techevent"
+>
+
+  <!-- Hierarchy control -->
+  <property name="global_allow">True</property>
+
+  <!-- Enabled behaviors -->
+  <property name="behaviors"
+            purge="true"
+  >
+    <element value="collective.techevent.event_settings" />
+    <element value="sc.voltolighttheme.themeselector" />
+    <element value="sc.voltolighttheme.siteheader" />
+    <element value="sc.voltolighttheme.footer" />
+    <element value="volto.navtitle" />
+    <element value="plone.basic" />
+    <element value="plone.namefromtitle" />
+    <element value="plone.excludefromnavigation" />
+    <element value="volto.preview_image_link" />
+    <element value="plone.shortname" />
+    <element value="plone.navigationroot" />
+    <element value="volto.blocks" />
+    <element value="plone.versioning" />
+  </property>
+</object>

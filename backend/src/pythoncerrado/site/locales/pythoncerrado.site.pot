@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"POT-Creation-Date: 2026-10-13 18:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,3 +16,19 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: pythoncerrado.site\n"
+
+#: pythoncerrado/site/profiles.zcml:22
+msgid "Create example content to showcase the new website"
+msgstr ""
+
+#: pythoncerrado/site/profiles.zcml:13
+msgid "Package to configure a new Python Cerrado site"
+msgstr ""
+
+#: pythoncerrado/site/profiles.zcml:22
+msgid "Python Cerrado: Example content"
+msgstr ""
+
+#: pythoncerrado/site/profiles.zcml:13
+msgid "Python Cerrado: Install"
+msgstr ""
