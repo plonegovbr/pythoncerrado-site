@@ -1,0 +1,484 @@
+{
+  "@id": "/2026/chamada-de-trabalhos",
+  "@type": "Document",
+  "UID": "f49c98655a7c458eb920747d4c0b02b2",
+  "allow_discussion": null,
+  "blocks": {
+    "088ef49c-211c-4363-8276-9c295be95834": {
+      "@type": "slate",
+      "plaintext": "Qualquer tema que envolva Python: linguagem, bibliotecas, ferramentas, dados, web, automa\u00e7\u00e3o, ensino, comunidade e carreira. Pessoas de todos os n\u00edveis e origens s\u00e3o bem-vindas, inclusive quem nunca palestrou.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Qualquer tema que envolva Python: linguagem, bibliotecas, ferramentas, dados, web, automa\u00e7\u00e3o, ensino, comunidade e carreira. Pessoas de todos os n\u00edveis e origens s\u00e3o bem-vindas, inclusive quem nunca palestrou."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "0e7071e0-4edd-4048-831b-1edb7e08c700": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "https://talks.python.org.br/python-cerrado-2026/",
+          "title": "talks.python.org.br/python-cerrado-2026/"
+        }
+      ],
+      "openLinkInNewTab": true,
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Submeta sua palestra"
+    },
+    "2b38c0e3-c45a-4c8b-9be1-947ad2d1d36b": {
+      "@type": "slate",
+      "plaintext": "N\u00edveis",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "N\u00edveis"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "4188f425-3659-4898-b784-4caa313fd87c": {
+      "@type": "description"
+    },
+    "450c2825-fe5c-43c5-87fd-03ce0c666d8f": {
+      "@type": "slate",
+      "plaintext": "Prazos",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Prazos"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "649d315e-79d5-486c-becc-316fa357cc5a": {
+      "@type": "accordion",
+      "collapsed": false,
+      "data": {
+        "blocks": {
+          "234b258d-44d2-4b00-85b7-9b97abccf572": {
+            "blocks": {
+              "b5f48ac3-0547-49a8-b14c-4bcb120c7ff9": {
+                "@type": "slate",
+                "plaintext": "Claro que sim! Os eventos regionais de Python, como a Python Cerrado, s\u00e3o o momento ideal para que voc\u00ea fa\u00e7a sua primeira apresenta\u00e7\u00e3o em um evento de Python.",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Claro que sim! Os eventos regionais de Python, como a Python Cerrado, s\u00e3o o momento ideal para que voc\u00ea fa\u00e7a sua primeira apresenta\u00e7\u00e3o em um evento de Python."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b5f48ac3-0547-49a8-b14c-4bcb120c7ff9"
+              ]
+            },
+            "title": "Nunca palestrei. Posso participar?"
+          },
+          "5b8d9992-99ac-4a14-a0b6-3a0163500c71": {
+            "blocks": {
+              "8e991766-8e33-4b6f-835b-01c9a1ed2584": {
+                "@type": "slate",
+                "plaintext": "Sim. Por\u00e9m, para  proporcionarmos oportunidades a mais pessoas da comunidade, selecionaremos apenas uma proposta por palestrante.",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Sim. Por\u00e9m, para  proporcionarmos oportunidades a mais pessoas da comunidade, selecionaremos apenas uma proposta por palestrante."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "8e991766-8e33-4b6f-835b-01c9a1ed2584"
+              ]
+            },
+            "title": "Posso enviar mais de uma proposta?"
+          },
+          "86cd9640-2330-41c2-98d8-9fc8ff2d5012": {
+            "blocks": {
+              "e25f581f-a9bc-4deb-955b-95874d164a6b": {
+                "@type": "slate",
+                "plaintext": "Ap\u00f3s o encerramento do per\u00edodo de encerramento do recebimento das propostas, o time da organiza\u00e7\u00e3o selecionar\u00e1 os trabalhos e entrar\u00e1 em contato com os palestrantes.",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Ap\u00f3s o encerramento do per\u00edodo de encerramento do recebimento das propostas, o time da organiza\u00e7\u00e3o selecionar\u00e1 os trabalhos e entrar\u00e1 em contato com os palestrantes."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "e25f581f-a9bc-4deb-955b-95874d164a6b"
+              ]
+            },
+            "title": "Como funciona a sele\u00e7\u00e3o?"
+          },
+          "d7464e63-775f-4abd-94cc-98c365ddd9f3": {
+            "blocks": {
+              "5eb6c4aa-5dc9-4210-abb9-522adc30da35": {
+                "@type": "slate",
+                "plaintext": "Na edi\u00e7\u00e3o de 2026 teremos apenas a cobran\u00e7a de ingresso social, que ser\u00e1 uma doa\u00e7\u00e3o para algum projeto de c\u00f3digo aberto, grupo de usu\u00e1rios ou hacker space de Bras\u00edlia ou entorno.",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Na edi\u00e7\u00e3o de 2026 teremos apenas a cobran\u00e7a de ingresso social, que ser\u00e1 uma doa\u00e7\u00e3o para algum projeto de c\u00f3digo aberto, grupo de usu\u00e1rios ou hacker space de Bras\u00edlia ou entorno."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "5eb6c4aa-5dc9-4210-abb9-522adc30da35"
+              ]
+            },
+            "title": "Quem palestra ganha ingresso?"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "5b8d9992-99ac-4a14-a0b6-3a0163500c71",
+            "234b258d-44d2-4b00-85b7-9b97abccf572",
+            "86cd9640-2330-41c2-98d8-9fc8ff2d5012",
+            "d7464e63-775f-4abd-94cc-98c365ddd9f3"
+          ]
+        }
+      },
+      "headline": "Perguntas frequentes",
+      "non_exclusive": true,
+      "right_arrows": true,
+      "styles": {},
+      "theme": "default"
+    },
+    "74c87a4c-5b47-49c6-a5b0-b44798e98b1c": {
+      "@type": "slate",
+      "plaintext": "O que submeter",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O que submeter"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "92136484-5860-47b7-9cc6-b481f320cbae": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "https://talks.python.org.br/python-cerrado-2026/",
+          "title": "talks.python.org.br/python-cerrado-2026/"
+        }
+      ],
+      "openLinkInNewTab": true,
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Submeta sua palestra"
+    },
+    "96455972-14f6-4a89-b0b7-9793e0406874": {
+      "@type": "slate",
+      "plaintext": "Formatos",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Formatos"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "96c29230-83df-4f52-92db-4b2f31b98377": {
+      "@type": "slate",
+      "plaintext": "Iniciante \u2014 n\u00e3o exige conhecimento pr\u00e9vio do tema. Intermedi\u00e1rio \u2014 pressup\u00f5e uso cotidiano de Python. Avan\u00e7ado \u2014 aprofunda um tema para quem j\u00e1 o pratica.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Iniciante"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " \u2014 n\u00e3o exige conhecimento pr\u00e9vio do tema."
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Intermedi\u00e1rio"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " \u2014 pressup\u00f5e uso cotidiano de Python."
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Avan\u00e7ado"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " \u2014 aprofunda um tema para quem j\u00e1 o pratica."
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "b2d1738e-61cb-4cfc-ba39-d10922b91cdc": {
+      "@type": "title"
+    },
+    "db8eb1bf-6eef-4e15-a75a-6cc3846af2a5": {
+      "@type": "slate",
+      "plaintext": " 15/10 : Abertura da chamada de trabalhos  23/10 : Encerramento da chamada de trabalhos  26/10 : An\u00fancio dos trabalhos selecionados",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "15/10"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Abertura da chamada de trabalhos"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "23/10"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Encerramento da chamada de trabalhos"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "26/10"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": An\u00fancio dos trabalhos selecionados"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "f7704657-ff5f-4872-a813-d44e01b273c6": {
+      "@type": "slate",
+      "plaintext": " Palestra \u2014 30 ou 40 minutos, com tempo para perguntas  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Palestra"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " \u2014 30 ou 40 minutos, com tempo para perguntas"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b2d1738e-61cb-4cfc-ba39-d10922b91cdc",
+      "4188f425-3659-4898-b784-4caa313fd87c",
+      "74c87a4c-5b47-49c6-a5b0-b44798e98b1c",
+      "088ef49c-211c-4363-8276-9c295be95834",
+      "96455972-14f6-4a89-b0b7-9793e0406874",
+      "f7704657-ff5f-4872-a813-d44e01b273c6",
+      "2b38c0e3-c45a-4c8b-9be1-947ad2d1d36b",
+      "96c29230-83df-4f52-92db-4b2f31b98377",
+      "450c2825-fe5c-43c5-87fd-03ce0c666d8f",
+      "db8eb1bf-6eef-4e15-a75a-6cc3846af2a5",
+      "0e7071e0-4edd-4048-831b-1edb7e08c700",
+      "649d315e-79d5-486c-becc-316fa357cc5a",
+      "92136484-5860-47b7-9cc6-b481f320cbae"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-10-13T12:00:00+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Compartilhe o que voc\u00ea aprendeu com a comunidade Python do Centro-Oeste. Propostas abertas at\u00e9 23/10/2026.",
+  "effective": "2026-10-13T12:00:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "chamada-de-trabalhos",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-14T13:08:56+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Chamada de Trabalhos",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

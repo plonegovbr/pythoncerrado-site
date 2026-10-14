@@ -1,0 +1,177 @@
+{
+  "@id": "/2026/patrocine/patrocine",
+  "@type": "Document",
+  "UID": "0e912a168b9e424cbde4f44594587162",
+  "allow_discussion": null,
+  "blocks": {
+    "91579bc0-1d6e-42c8-bcf4-bd5c95f28ade": {
+      "@type": "description"
+    },
+    "92085cd6-d07e-463b-b9fa-df9e2aaea0ab": {
+      "@type": "slate"
+    },
+    "9e5833dd-686d-46df-be4e-3d343b9a9cb0": {
+      "@type": "schemaForm",
+      "cancel_label": "Cancelar",
+      "captcha": "honeypot",
+      "confirmation_recipients": "${email}",
+      "data_wipe": -1,
+      "mail_template": "default",
+      "recipients": "cerrado@python.org.br",
+      "schema": {
+        "fieldsets": [
+          {
+            "fields": [
+              "nome",
+              "organizacao",
+              "email",
+              "cota",
+              "comentario"
+            ],
+            "id": "default",
+            "title": "Default"
+          }
+        ],
+        "properties": {
+          "comentario": {
+            "factory": "textarea",
+            "id": "comentario",
+            "title": "Informa\u00e7\u00f5es adicionais",
+            "type": "string",
+            "widget": "textarea"
+          },
+          "cota": {
+            "choices": [
+              [
+                "Ouro",
+                "Ouro"
+              ],
+              [
+                "Prata",
+                "Prata"
+              ],
+              [
+                "Bronze",
+                "Bronze"
+              ]
+            ],
+            "description": "Qual cota voc\u00ea tem interesse",
+            "factory": "label_choice_field",
+            "id": "cota",
+            "title": "Cota de patroc\u00ednio",
+            "type": "string",
+            "values": [
+              "Ouro",
+              "Prata",
+              "Bronze"
+            ]
+          },
+          "email": {
+            "description": "Seu e-mail de contato",
+            "factory": "label_email",
+            "id": "email",
+            "title": "E-mail",
+            "type": "string",
+            "widget": "email"
+          },
+          "nome": {
+            "description": "Seu nome",
+            "factory": "label_text_field",
+            "id": "nome",
+            "placeholder": "Joana Batista",
+            "title": "Nome",
+            "type": "string"
+          },
+          "organizacao": {
+            "description": "Sua empresa ou entidade",
+            "factory": {
+              "label": "Texto",
+              "value": "label_text_field"
+            },
+            "id": "organizacao",
+            "placeholder": "Mooca Ventures",
+            "title": "Organiza\u00e7\u00e3o",
+            "type": "string"
+          }
+        },
+        "required": [
+          "nome",
+          "organizacao",
+          "email",
+          "cota"
+        ]
+      },
+      "send": true,
+      "send_confirmation": true,
+      "sender": "cerrado@plone.org",
+      "sender_name": "Python Cerrado 2026",
+      "show_cancel": false,
+      "store": true,
+      "subject": "Patroc\u00ednio da Python Cerrado 2026",
+      "submit_label": "Enviar",
+      "success": "Gracias! Voc\u00ea enviou os seguintes dados:",
+      "thankyou": "${formfields}"
+    },
+    "db3bdabf-5673-464e-be8b-6a01131a2533": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "db3bdabf-5673-464e-be8b-6a01131a2533",
+      "91579bc0-1d6e-42c8-bcf4-bd5c95f28ade",
+      "9e5833dd-686d-46df-be4e-3d343b9a9cb0",
+      "92085cd6-d07e-463b-b9fa-df9e2aaea0ab"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-05-24T19:45:28+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Patrocine o maior evento de Python do centro-oeste brasileiro",
+  "effective": "2025-05-24T19:56:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "patrocine",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-14T12:17:03+00:00",
+  "nav_title": "Patrocine",
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Seja um patrocinador",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-05-24T19:45:28+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-05-24T19:56:13+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

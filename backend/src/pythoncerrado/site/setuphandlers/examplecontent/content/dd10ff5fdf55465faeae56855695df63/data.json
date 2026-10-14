@@ -1,0 +1,91 @@
+{
+  "@id": "/2026/imagens",
+  "@type": "Document",
+  "UID": "dd10ff5fdf55465faeae56855695df63",
+  "allow_discussion": null,
+  "blocks": {
+    "9bf7b072-9c53-4aa1-a20b-8bd5b96d59e9": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Image"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.relativePath",
+            "v": "."
+          }
+        ],
+        "sort_on": "getObjPositionInParent",
+        "sort_order": "ascending",
+        "sort_order_boolean": false
+      },
+      "variation": "imageGallery"
+    },
+    "e6d40374-7db0-4e15-ab67-76aa562ef847": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e6d40374-7db0-4e15-ab67-76aa562ef847",
+      "9bf7b072-9c53-4aa1-a20b-8bd5b96d59e9"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-10-13T12:00:00+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Imagens da Python Cerrado 2026",
+  "effective": "2026-10-13T12:00:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "imagens",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-13T12:00:00+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Imagens",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,205 @@
+{
+  "@id": "/2026/sobre/local",
+  "@type": "Venue",
+  "UID": "621d7907e1c44dc8af6da5c19a3428e1",
+  "allow_discussion": null,
+  "blocks": {
+    "327174c0-538f-447c-8ba3-607331ccab3e": {
+      "@type": "maps",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "url": "https://www.google.com/maps?q=CEUB+Asa+Norte,+SEPN+707/907,+Bras%C3%ADlia+-+DF&output=embed"
+    },
+    "4f1465da-c835-427e-abf5-0772ff812ba3": {
+      "@type": "slate",
+      "plaintext": "Espa\u00e7os para apresenta\u00e7\u00f5es",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Espa\u00e7os para apresenta\u00e7\u00f5es"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "531b5983-5266-41b1-8f15-9e502df4531f": {
+      "@type": "description"
+    },
+    "7956316d-f9cd-4b1a-aa22-e0f1d332057b": {
+      "@type": "slate",
+      "plaintext": "SEPN 707/907 \u2013 Asa Norte\nBras\u00edlia - DF",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "SEPN 707/907 \u2013 Asa Norte\nBras\u00edlia - DF"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c2141082-9828-4a20-b1f4-081d3d3827af": {
+      "@type": "gridBlock",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "blocks": {
+        "5604e450-f763-4f7c-8fac-3149987c1df4": {
+          "@type": "teaser",
+          "description": "Audit\u00f3rio da Python Cerrado 2026",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/cd6a1d379de0452f949c940a8e52462e",
+              "@type": "Room",
+              "Description": "Audit\u00f3rio da Python Cerrado 2026",
+              "Subject": [],
+              "Title": "Audit\u00f3rio 1",
+              "description": "Audit\u00f3rio da Python Cerrado 2026",
+              "effective": "1969-12-31T03:00:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "Audit\u00f3rio 1",
+              "type_title": "Sala"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "",
+            "align": "left"
+          },
+          "theme": "default",
+          "title": "Audit\u00f3rio 1"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "5604e450-f763-4f7c-8fac-3149987c1df4"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "db87a533-2c94-47eb-84d9-b57bdeb6b2e0": {
+      "@type": "title"
+    },
+    "de8d3f06-075d-4f09-83ed-3911d06fb0aa": {
+      "@type": "slate",
+      "plaintext": "Localiza\u00e7\u00e3o",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Localiza\u00e7\u00e3o"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "e200e621-9074-43c7-88c6-5206cf672402": {
+      "@type": "slate",
+      "plaintext": "Como chegar",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Como chegar"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "f34b7850-7c63-4ae3-8297-fbb4c4fdd7bd": {
+      "@type": "slate",
+      "plaintext": "[Linhas de \u00f4nibus e tempo de deslocamento a partir dos setores hoteleiros \u2014 a definir pela organiza\u00e7\u00e3o]",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "[Linhas de \u00f4nibus e tempo de deslocamento a partir dos setores hoteleiros \u2014 a definir pela organiza\u00e7\u00e3o]"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "db87a533-2c94-47eb-84d9-b57bdeb6b2e0",
+      "531b5983-5266-41b1-8f15-9e502df4531f",
+      "de8d3f06-075d-4f09-83ed-3911d06fb0aa",
+      "7956316d-f9cd-4b1a-aa22-e0f1d332057b",
+      "327174c0-538f-447c-8ba3-607331ccab3e",
+      "e200e621-9074-43c7-88c6-5206cf672402",
+      "f34b7850-7c63-4ae3-8297-fbb4c4fdd7bd",
+      "4f1465da-c835-427e-abf5-0772ff812ba3",
+      "c2141082-9828-4a20-b1f4-081d3d3827af"
+    ]
+  },
+  "changeNote": "",
+  "created": "2026-10-13T12:00:00+00:00",
+  "description": "A Python Cerrado 2026 acontece no campus Asa Norte do CEUB, em Bras\u00edlia, DF.",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "local",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-14T12:42:44+00:00",
+  "nav_title": "Local",
+  "preview_caption_link": null,
+  "review_state": "published",
+  "title": "CEUB \u2014 Campus Asa Norte",
+  "type_title": "Venue",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

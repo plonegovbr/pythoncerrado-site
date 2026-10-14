@@ -1,0 +1,70 @@
+{
+  "@id": "/2026/grade/20261107/ola-zora-ou-como-enfrento-o-caos-e-o-tdah-diariamente",
+  "@type": "Talk",
+  "UID": "e1f4ffbb81db43059e68ea0b189cb064",
+  "allow_discussion": null,
+  "changeNote": "",
+  "created": "2026-10-14T13:18:37+00:00",
+  "description": "M\u00faltiplos pap\u00e9is, contextos sobrepostos, TDAH e a vida acontecendo. Como notas em markdown, \"IA\" e um assistente chamado Zora me ajudam a navegar o dia a dia -- mas sem deixar a divers\u00e3o de lado.",
+  "duration": "28c13e1a-b15a-4310-8777-cf06e1f6fcb1",
+  "end": "2026-11-07T14:45:00+00:00",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "ola-zora-ou-como-enfrento-o-caos-e-o-tdah-diariamente",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-14T13:18:40+00:00",
+  "preview_caption_link": null,
+  "review_state": "published",
+  "room": [
+    "cd6a1d379de0452f949c940a8e52462e"
+  ],
+  "session_audience": [
+    "f59d4635-5f42-4775-8641-9fbff8df46de",
+    "1b882a1a-2f75-44bf-af32-c4095d47829c",
+    "3e0faf55-6d23-447f-bbc3-3e7636b2384a"
+  ],
+  "session_language": "pt-br",
+  "session_level": [
+    "00dfc721-461f-413a-bf93-8d32b7652938"
+  ],
+  "session_track": [
+    "142"
+  ],
+  "session_video": null,
+  "slot_category": "activity",
+  "start": "2026-11-07T14:00:00+00:00",
+  "subjects": [],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Tenho mais chap\u00e9us do que \u00e9 saud\u00e1vel a uma pessoa s\u00f3: executivo de uma consultoria pequena, dev s\u00eanior em uma empresa internacional, volunt\u00e1rio e l\u00edder de uma comunidade open source, filho, pai, marido e com diversos boletos para pagar.<br/>Cada papel tem seu vocabul\u00e1rio, prazos, urg\u00eancias e seu pr\u00f3prio modo de me consumir. Some a isso TDAH, os diversos interesses e hobbies, e o resultado \u00e9 ca\u00f3tico.</p><p>Nessa apresenta\u00e7\u00e3o eu conto como cheguei num workflow que parece funcionar pra mim:</p><ul><li>Notas em markdown como ponto de partida \u2014 uma forma de externalizar mem\u00f3ria de trabalho e ancorar contexto entre janelas de aten\u00e7\u00e3o que duram pouco.</li><li>Um agente de IA pra programa\u00e7\u00e3o como catalisador: processos informais que eu carregava na cabe\u00e7a viraram Skills e subagentes reutiliz\u00e1veis.</li><li>Zora, um assistente pessoal constru\u00eddo em cima disso, que cuida das tarefas chatas e repetitivas \u2014 documentar c\u00f3digo, contabilizar horas, gerar relat\u00f3rios, organizar burocracia \u2014 me deixando livre pra explorar as muitas ideias novas que aparecem no caminho.</li></ul><p>N\u00e3o \u00e9 tutorial nem manifesto. \u00c9 um relato pessoal, honesto, com o que custou caro descobrir, o que ainda n\u00e3o funciona, e por que essa \u00e9 a MINHA solu\u00e7\u00e3o \u2014 provavelmente n\u00e3o a sua, mas talvez possa ser a semente da sua automa\u00e7\u00e3o</p>",
+    "encoding": "utf8"
+  },
+  "title": "Ol\u00e1 Zora! (ou como enfrento o caos, e o TDAH, diariamente)",
+  "type_title": "Talk",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-14T13:18:37+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-14T13:18:40+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

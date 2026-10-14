@@ -1,0 +1,39 @@
+{
+  "@id": "/2026/sobre/brasilia-df/esplanada",
+  "@type": "Image",
+  "UID": "5242054628d743ca8da5e4ac530b23ca",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2025-05-24T22:25:50+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "esplanada",
+  "image": {
+    "blob_path": "5242054628d743ca8da5e4ac530b23ca/image/Esplanada",
+    "content-type": "image/jpeg",
+    "filename": "Esplanada",
+    "height": 900,
+    "size": 224425,
+    "width": 1600
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2025-05-24T22:25:50+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Esplanada",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

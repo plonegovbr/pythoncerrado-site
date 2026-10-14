@@ -4,264 +4,328 @@
   "UID": "plone_site_root",
   "allow_discussion": null,
   "blocks": {
-    "47c92ffe-c201-493c-97c9-a2d4e0beab69": {
+    "2c4c9aec-11ca-4667-97e8-bcf3ca2d4389": {
       "@type": "slate",
-      "plaintext": "Plone is a powerful content management system built on a rock-solid application stack written in the Python and JavaScript programming languages.",
+      "plaintext": "A Python Cerrado \u00e9 o encontro da comunidade Python da regi\u00e3o Centro-Oeste do Brasil. Em um contexto diverso, dedicado \u00e0 troca de experi\u00eancias e conhecimento, o evento \u00e9 aberto a pessoas de v\u00e1rias origens e n\u00edveis de profici\u00eancia na linguagem. A primeira edi\u00e7\u00e3o aconteceu em 2018, no Campus Gama da Universidade de Bras\u00edlia. Em 2019 o encontro foi para Goi\u00e2nia, como parte da Campus Party Goi\u00e1s. Em 2024, realizada junto com a Plone Conference, a Python Cerrado recebeu participantes de 19 pa\u00edses, e em 2025 voltou a Bras\u00edlia com dois dias de tutoriais e um dia de palestras. O evento \u00e9 feito pela comunidade, para a comunidade, com o objetivo de promover a plataforma Python e o software livre entre universidades, empresas e a sociedade civil.",
+      "styles": {},
+      "theme": "default",
       "value": [
         {
           "children": [
             {
-              "text": "Plone is a powerful content management system built on a rock-solid application stack written in the "
-            },
+              "text": "A Python Cerrado \u00e9 o encontro da comunidade Python da regi\u00e3o Centro-Oeste do Brasil. Em um contexto diverso, dedicado \u00e0 troca de experi\u00eancias e conhecimento, o evento \u00e9 aberto a pessoas de v\u00e1rias origens e n\u00edveis de profici\u00eancia na linguagem."
+            }
+          ],
+          "type": "p"
+        },
+        {
+          "children": [
             {
-              "children": [
-                {
-                  "text": "Python"
-                }
-              ],
-              "type": "em"
-            },
+              "text": "A primeira edi\u00e7\u00e3o aconteceu em 2018, no Campus Gama da Universidade de Bras\u00edlia. Em 2019 o encontro foi para Goi\u00e2nia, como parte da Campus Party Goi\u00e1s. Em 2024, realizada junto com a Plone Conference, a Python Cerrado recebeu participantes de 19 pa\u00edses, e em 2025 voltou a Bras\u00edlia com dois dias de tutoriais e um dia de palestras."
+            }
+          ],
+          "type": "p"
+        },
+        {
+          "children": [
             {
-              "text": " and "
-            },
-            {
-              "children": [
-                {
-                  "text": "JavaScript"
-                }
-              ],
-              "type": "em"
-            },
-            {
-              "text": " programming languages."
+              "text": "O evento \u00e9 feito pela comunidade, para a comunidade, com o objetivo de promover a plataforma Python e o software livre entre universidades, empresas e a sociedade civil."
             }
           ],
           "type": "p"
         }
       ]
     },
-    "5f31e9e4-173f-4ec1-ab48-64e9e2789b76": {
+    "37b6f487-2724-438f-bd32-7b503bcf8e55": {
       "@type": "title"
     },
-    "68357972-bd25-47e2-a098-c7932a923182": {
-      "@type": "image",
-      "alt": "Plone Foundation Logo",
+    "66533f6b-1f81-475b-bba1-d3a4b13f072b": {
+      "@type": "teaser",
+      "description": "06 e 07 de novembro de 2026, no CEUB, em Bras\u00edlia, DF. Submeta sua palestra!",
+      "head_title": "Pr\u00f3xima edi\u00e7\u00e3o",
       "href": [
         {
-          "@id": "https://plone.org/foundation",
-          "title": "plone.org/foundation"
+          "@id": "resolveuid/1947831b21264c0f81083734d61e02ba",
+          "@type": "Tech Event",
+          "Description": "O encontro da comunidade Python do Centro-Oeste do Brasil. 06 e 07 de novembro de 2026, Bras\u00edlia, DF.",
+          "Title": "Python Cerrado 2026",
+          "description": "O encontro da comunidade Python do Centro-Oeste do Brasil. 06 e 07 de novembro de 2026, Bras\u00edlia, DF.",
+          "title": "Python Cerrado 2026"
         }
       ],
-      "image_field": "image",
-      "url": "resolveuid/a58ccead718140c1baa98d43595fc3e6"
-    },
-    "ae41d44d-c4b1-426c-acf6-2e28cb9a97a0": {
-      "@type": "slate",
-      "plaintext": "Find out more about Plone",
-      "value": [
+      "overwrite": true,
+      "preview_image": [
         {
-          "children": [
-            {
-              "text": "Find out more about Plone"
-            }
-          ],
-          "type": "h3"
+          "@id": "resolveuid/fa9a810f91ec4a1090013601c98e2fc5",
+          "image_field": "image",
+          "title": "foto oficial 2024.jpg"
         }
-      ]
-    },
-    "d9707a27-2565-4d7d-9daa-6c61d60ce8fd": {
-      "@type": "slate",
-      "plaintext": " The features of Plone   Plone Documentation   Plone Training   Plone Community Forum   Add-ons for Plone (backend)   Add-ons for Volto (frontend) ",
-      "value": [
-        {
-          "children": [
-            {
-              "children": [
-                {
-                  "text": ""
-                },
-                {
-                  "children": [
-                    {
-                      "text": "The features of Plone"
-                    }
-                  ],
-                  "data": {
-                    "url": "https://plone.org/why-plone/features"
-                  },
-                  "type": "link"
-                },
-                {
-                  "text": ""
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": ""
-                },
-                {
-                  "children": [
-                    {
-                      "text": "Plone Documentation"
-                    }
-                  ],
-                  "data": {
-                    "url": "https://docs.plone.org/"
-                  },
-                  "type": "link"
-                },
-                {
-                  "text": ""
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": ""
-                },
-                {
-                  "children": [
-                    {
-                      "text": "Plone Training"
-                    }
-                  ],
-                  "data": {
-                    "url": "https://training.plone.org/"
-                  },
-                  "type": "link"
-                },
-                {
-                  "text": ""
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": ""
-                },
-                {
-                  "children": [
-                    {
-                      "text": "Plone Community Forum"
-                    }
-                  ],
-                  "data": {
-                    "url": "https://community.plone.org/"
-                  },
-                  "type": "link"
-                },
-                {
-                  "text": ""
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": ""
-                },
-                {
-                  "children": [
-                    {
-                      "text": "Add-ons for Plone (backend)"
-                    }
-                  ],
-                  "data": {
-                    "url": "https://github.com/collective/awesome-plone#readme"
-                  },
-                  "type": "link"
-                },
-                {
-                  "text": ""
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": ""
-                },
-                {
-                  "children": [
-                    {
-                      "text": "Add-ons for Volto (frontend)"
-                    }
-                  ],
-                  "data": {
-                    "url": "https://github.com/collective/awesome-volto#readme"
-                  },
-                  "type": "link"
-                },
-                {
-                  "text": ""
-                }
-              ],
-              "type": "li"
-            }
-          ],
-          "type": "ul"
+      ],
+      "styles": {
+        "align": "left",
+        "blockWidth:noprefix": {
+          "--block-width": "var(--layout-container-width)"
         }
-      ]
-    },
-    "e5ace182-3746-472c-ad81-696425a2b161": {
-      "@type": "slate",
-      "plaintext": "Welcome to your new Plone site!",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Welcome to your new Plone site!"
-            }
-          ],
-          "type": "h2"
-        }
-      ]
+      },
+      "theme": "brand",
+      "title": "Python Cerrado 2026"
     }
   },
   "blocks_layout": {
     "items": [
-      "5f31e9e4-173f-4ec1-ab48-64e9e2789b76",
-      "e5ace182-3746-472c-ad81-696425a2b161",
-      "ae41d44d-c4b1-426c-acf6-2e28cb9a97a0",
-      "47c92ffe-c201-493c-97c9-a2d4e0beab69",
-      "d9707a27-2565-4d7d-9daa-6c61d60ce8fd",
-      "68357972-bd25-47e2-a098-c7932a923182"
+      "37b6f487-2724-438f-bd32-7b503bcf8e55",
+      "2c4c9aec-11ca-4667-97e8-bcf3ca2d4389",
+      "66533f6b-1f81-475b-bba1-d3a4b13f072b"
     ]
   },
-  "contributors": [],
-  "creators": [
-    "admin"
-  ],
-  "description": "",
-  "effective": null,
+  "description": "O encontro da comunidade Python do Centro-Oeste do Brasil.",
   "exclude_from_nav": false,
-  "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "exportimport.versions": {},
+  "facebook_app_id": "",
+  "facebook_username": "",
+  "footer_address": null,
+  "footer_brand_message": null,
+  "footer_brand_slogan": "O encontro da comunidade Python do Centro-Oeste do Brasil",
+  "footer_colophon_right_text": null,
+  "footer_colophon_text": [
+    {
+      "children": [
+        {
+          "text": "Site desenvolvido com \u2764\ufe0f pela "
+        },
+        {
+          "children": [
+            {
+              "text": "PloneGov-BR"
+            }
+          ],
+          "data": {
+            "url": "https://plone.org.br"
+          },
+          "type": "link"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "type": "p"
+    }
+  ],
+  "footer_column_left": [
+    {
+      "@id": "55e2e3b6-540a-4159-a428-0b061c522dc2",
+      "href": [
+        {
+          "@id": "/2026",
+          "title": "Python Cerrado 2026"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Python Cerrado 2026"
+    },
+    {
+      "@id": "ef607665-31b2-4304-9b93-b0217e54d6bf",
+      "href": [
+        {
+          "@id": "/2025",
+          "title": "Python Cerrado 2025"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Python Cerrado 2025"
+    },
+    {
+      "@id": "1551879f-3260-40c1-a25a-dee9cb291d71",
+      "href": [
+        {
+          "@id": "/2026/sobre/historia",
+          "title": "Edi\u00e7\u00f5es Anteriores"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Edi\u00e7\u00f5es Anteriores"
+    }
+  ],
+  "footer_column_left_header": "Edi\u00e7\u00f5es",
+  "footer_column_middle": [
+    {
+      "@id": "b6096e35-419a-4518-9b62-a1bde0523e22",
+      "href": [
+        {
+          "@id": "/2026/sobre/codigo-de-conduta",
+          "title": "C\u00f3digo de Conduta"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "C\u00f3digo de Conduta"
+    },
+    {
+      "@id": "8dd8a63d-5858-4ad6-9313-d17ed8e343ac",
+      "href": [
+        {
+          "@id": "/2026/sobre/contato",
+          "title": "Fale Conosco"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Fale Conosco"
+    },
+    {
+      "@id": "cf36dfd0-95a3-440a-a160-aa088e63d0c3",
+      "href": [
+        {
+          "@id": "https://www.youtube.com/@PythonCerrado",
+          "title": "YouTube"
+        }
+      ],
+      "openLinkInNewTab": true,
+      "title": "YouTube"
+    }
+  ],
+  "footer_column_middle_header": "Comunidade",
+  "footer_column_right": [],
+  "footer_column_right_header": null,
+  "footer_links": [],
+  "footer_logo": {
+    "blob_path": "plone_site_root/footer_logo/pythoncerrado-2026-logo-terra-vermelha-dark.png",
+    "content-type": "image/png",
+    "filename": "pythoncerrado-2026-logo-terra-vermelha-dark.png",
+    "height": 592,
+    "size": 69760,
+    "width": 1690
+  },
+  "footer_logos": [],
+  "footer_logos_container_width": "default",
+  "footer_logos_size": "s",
+  "has_fat_menu": true,
+  "header_actions": [],
   "id": "Plone",
   "is_folderish": true,
-  "items_total": 0,
+  "items_total": 2,
   "language": "##DEFAULT##",
+  "layout": "document_view",
   "lock": {
     "locked": false,
     "stealable": true
   },
-  "parent": {},
+  "logo": {
+    "blob_path": "plone_site_root/logo/pythoncerrado-2026-logo-terra-vermelha-light.png",
+    "content-type": "image/png",
+    "filename": "pythoncerrado-2026-logo-terra-vermelha-light.png",
+    "height": 592,
+    "size": 72058,
+    "width": 1690
+  },
   "review_state": null,
-  "rights": "",
-  "subjects": [],
-  "table_of_contents": null,
-  "title": "Project Title",
+  "share_social_data": true,
+  "social_links": [
+    {
+      "@id": "4593a3a0-43a6-4e50-8e58-6b0602f61ede",
+      "href": [
+        {
+          "@id": "https://instagram.com/pythoncerrado/",
+          "title": "instagram.com/pythoncerrado/"
+        }
+      ],
+      "id": "instagram",
+      "title": "Instagram"
+    },
+    {
+      "@id": "89aadcda-7083-4d3b-af23-77b6b5179a95",
+      "href": [
+        {
+          "@id": "https://pynews.com.br/@pythoncerrado",
+          "title": "pynews.com.br/@pythoncerrado"
+        }
+      ],
+      "id": "mastodon",
+      "title": "Mastodon"
+    },
+    {
+      "@id": "72036d8b-b861-4bb0-a25d-029bbbbf5fc7",
+      "href": [
+        {
+          "@id": "https://bsky.app/profile/pythoncerrado.org",
+          "title": "bsky.app/profile/pythoncerrado.org"
+        }
+      ],
+      "id": "bluesky",
+      "title": "BlueSky"
+    },
+    {
+      "@id": "d2ade5d1-f64d-40f7-9a43-450990c23cf1",
+      "href": [
+        {
+          "@id": "https://twitter.com/pythoncerrado/",
+          "title": "twitter.com/pythoncerrado/"
+        }
+      ],
+      "id": "x",
+      "title": "X"
+    },
+    {
+      "@id": "a03b1817-a98b-4be2-be76-816c1d907440",
+      "href": [
+        {
+          "@id": "https://www.youtube.com/@PythonCerrado",
+          "title": "www.youtube.com/@PythonCerrado"
+        }
+      ],
+      "id": "youtube",
+      "title": "YouTube"
+    }
+  ],
+  "theme": {
+    "title": "Python Cerrado 2026 \u2014 Terra vermelha",
+    "token": "pythoncerrado-2026-terra-vermelha",
+    "value": {
+      "accent_accent_color_dark": "#ffffff",
+      "accent_accent_color_light": "#ffffff",
+      "accent_color_dark": "#b23a12",
+      "accent_color_light": "#b23a12",
+      "accent_foreground_color_dark": "#ffffff",
+      "accent_foreground_color_light": "#ffffff",
+      "accent_low_foreground_color_dark": "#fbe3d6",
+      "accent_low_foreground_color_light": "#fbe3d6",
+      "event_color_dark": "#f08a5d",
+      "event_color_light": "#b23a12",
+      "file_color_dark": "#b8a998",
+      "file_color_light": "#6b5d4f",
+      "font_family_primary": "Outfit, sans-serif",
+      "font_family_secondary": "Outfit, sans-serif",
+      "image_color_dark": "#6fc2a3",
+      "image_color_light": "#1f6b52",
+      "neutral_accent_color_dark": "#f4a27a",
+      "neutral_accent_color_light": "#9c3210",
+      "neutral_color_dark": "#241e18",
+      "neutral_color_light": "#f8efe3",
+      "neutral_foreground_color_dark": "#f7f1e8",
+      "neutral_foreground_color_light": "#1f1b16",
+      "neutral_low_foreground_color_dark": "#cfc4b6",
+      "neutral_low_foreground_color_light": "#5a5046",
+      "primary_accent_color_dark": "#f08a5d",
+      "primary_accent_color_light": "#b23a12",
+      "primary_color_dark": "#14110e",
+      "primary_color_light": "#ffffff",
+      "primary_foreground_color_dark": "#f7f1e8",
+      "primary_foreground_color_light": "#1f1b16",
+      "primary_low_foreground_color_dark": "#cfc4b6",
+      "primary_low_foreground_color_light": "#5a5046",
+      "secondary_accent_color_dark": "#f4b860",
+      "secondary_accent_color_light": "#f4b860",
+      "secondary_color_dark": "#0e2b21",
+      "secondary_color_light": "#123a2c",
+      "secondary_foreground_color_dark": "#ffffff",
+      "secondary_foreground_color_light": "#ffffff",
+      "secondary_low_foreground_color_dark": "#c5d8cd",
+      "secondary_low_foreground_color_light": "#cfe0d6"
+    }
+  },
+  "title": "Python Cerrado",
   "type_title": "Plone Site",
-  "workflow_history": {}
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null,
+  "x_username": ""
 }

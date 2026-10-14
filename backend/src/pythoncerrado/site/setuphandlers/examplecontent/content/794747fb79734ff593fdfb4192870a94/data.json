@@ -1,0 +1,195 @@
+{
+  "@id": "/2026/palestrantes/erico-andrei",
+  "@type": "Presenter",
+  "UID": "794747fb79734ff593fdfb4192870a94",
+  "activities": [
+    {
+      "@id": "Talk",
+      "@type": "Talk",
+      "items": [
+        {
+          "@id": "/2026/grade/20261107/ola-zora-ou-como-enfrento-o-caos-e-o-tdah-diariamente",
+          "@type": "Talk",
+          "Subject": [],
+          "UID": "e1f4ffbb81db43059e68ea0b189cb064",
+          "description": "M\u00faltiplos pap\u00e9is, contextos sobrepostos, TDAH e a vida acontecendo. Como notas em markdown, \"IA\" e um assistente chamado Zora me ajudam a navegar o dia a dia -- mas sem deixar a divers\u00e3o de lado.",
+          "effective": "2026-10-14T13:18:40+00:00",
+          "end": "2026-11-07T14:45:00+00:00",
+          "getObjSize": null,
+          "getRemoteUrl": null,
+          "head_title": null,
+          "image_field": null,
+          "image_scales": {},
+          "mime_type": null,
+          "nav_title": null,
+          "portal_type": [
+            {
+              "title": "Talk",
+              "token": "Talk"
+            }
+          ],
+          "presenters": [
+            {
+              "@id": "/2026/palestrantes/erico-andrei",
+              "title": "\u00c9rico Andrei"
+            }
+          ],
+          "review_state": "published",
+          "room": [
+            {
+              "title": "Bloco 1 - Audit\u00f3rio 1",
+              "token": "cd6a1d379de0452f949c940a8e52462e"
+            }
+          ],
+          "session_audience": [
+            {
+              "title": "Dev",
+              "token": "f59d4635-5f42-4775-8641-9fbff8df46de"
+            },
+            {
+              "title": "SysAdmin",
+              "token": "1b882a1a-2f75-44bf-af32-c4095d47829c"
+            },
+            {
+              "title": "Cientista",
+              "token": "3e0faf55-6d23-447f-bbc3-3e7636b2384a"
+            }
+          ],
+          "session_language": [
+            {
+              "title": "Portugu\u00eas (Brasil)",
+              "token": "pt-br"
+            }
+          ],
+          "session_level": [
+            {
+              "title": "Intermedi\u00e1rio",
+              "token": "00dfc721-461f-413a-bf93-8d32b7652938"
+            }
+          ],
+          "session_track": [
+            {
+              "title": "Desenvolvimento com Python",
+              "token": "142"
+            }
+          ],
+          "slot_category": "activity",
+          "social_links": null,
+          "start": "2026-11-07T14:00:00+00:00",
+          "title": "Ol\u00e1 Zora! (ou como enfrento o caos, e o TDAH, diariamente)",
+          "type_title": "Talk"
+        }
+      ],
+      "title": "Talk"
+    }
+  ],
+  "allow_discussion": null,
+  "categories": [
+    "speaker"
+  ],
+  "changeNote": "",
+  "created": "2026-10-14T12:27:39+00:00",
+  "description": "\u00c9rico Andrei \u00e9 cofundador da Associa\u00e7\u00e3o Python Brasil e contribuidor ativo do CMS Plone e de iniciativas de governo aberto.",
+  "email": "ericof@plone.org",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "erico-andrei",
+  "image": {
+    "blob_path": "794747fb79734ff593fdfb4192870a94/image/2026-square.jpg",
+    "content-type": "image/jpeg",
+    "filename": "2026-square.jpg",
+    "height": 672,
+    "size": 83427,
+    "width": 672
+  },
+  "image_caption": null,
+  "is_folderish": false,
+  "labels": [
+    {
+      "title": "Speaker",
+      "token": "speaker"
+    }
+  ],
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-14T12:27:45+00:00",
+  "review_state": "published",
+  "social_links": [
+    {
+      "@id": "7da97605-806c-45a5-9fe8-5f5038593758",
+      "href": [
+        {
+          "@id": "https://bsky.app/profile/ericof.com",
+          "title": "bsky.app/profile/ericof.com"
+        }
+      ],
+      "id": "bluesky",
+      "title": "BlueSky"
+    },
+    {
+      "@id": "30679620-ae73-40aa-868c-f98572f6ce48",
+      "href": [
+        {
+          "@id": "https://www.linkedin.com/in/ericof/",
+          "title": "www.linkedin.com/in/ericof/"
+        }
+      ],
+      "id": "linkedin",
+      "title": "LinkedIn"
+    },
+    {
+      "@id": "934d7e23-4320-4722-a28c-5201d110fb17",
+      "href": [
+        {
+          "@id": "https://pynews.com.br/@ericof",
+          "title": "pynews.com.br/@ericof"
+        }
+      ],
+      "id": "mastodon",
+      "title": "Mastodon"
+    },
+    {
+      "@id": "4e0b8ea1-961e-4ad2-bac3-d214898429d7",
+      "href": [
+        {
+          "@id": "https://instagram.com/ericof",
+          "title": "instagram.com/ericof"
+        }
+      ],
+      "id": "instagram",
+      "title": "Instagram"
+    }
+  ],
+  "subjects": [],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>\u00c9rico Andrei tamb\u00e9m \u00e9 torcedor do Juventus da Mooca, f\u00e3 de Star Trek, pai, filho e marido.</p>",
+    "encoding": "utf8"
+  },
+  "title": "\u00c9rico Andrei",
+  "type_title": "Presenter",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-14T12:27:39+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-14T12:27:45+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,81 @@
+{
+  "@id": "/2026/patrocine/apoio/ceub",
+  "@type": "Sponsor",
+  "UID": "0394c049e0b543a6b55723573fade8d3",
+  "allow_discussion": null,
+  "changeNote": "",
+  "created": "2026-10-13T12:00:00+00:00",
+  "description": "Centro Universit\u00e1rio de Bras\u00edlia",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "ceub",
+  "image": {
+    "blob_path": "0394c049e0b543a6b55723573fade8d3/image/ceub.png",
+    "content-type": "image/png",
+    "filename": "ceub.png",
+    "height": 772,
+    "size": 35343,
+    "width": 1000
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-13T12:00:00+00:00",
+  "review_state": "published",
+  "social_links": [
+    {
+      "@id": "fc9f5ce7-d15e-4644-a107-0b603358f1a1",
+      "href": [
+        {
+          "@id": "https://www.uniceub.br",
+          "title": "www.uniceub.br"
+        }
+      ],
+      "id": "website",
+      "title": "Site"
+    },
+    {
+      "@id": "3c498439-5821-487c-9390-21bff9ef654e",
+      "href": [
+        {
+          "@id": "https://instagram.com/uniceub_oficial",
+          "title": "instagram.com/uniceub_oficial"
+        }
+      ],
+      "id": "instagram",
+      "title": "Instagram"
+    }
+  ],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>O CEUB recebe a Python Cerrado 2026 no campus Asa Norte, o maior e mais antigo dos seus campi, em Bras\u00edlia.</p>",
+    "encoding": "utf8"
+  },
+  "title": "CEUB",
+  "type_title": "Sponsor",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

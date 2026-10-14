@@ -1,0 +1,117 @@
+{
+  "@id": "/2026/patrocine/ouro",
+  "@type": "SponsorLevel",
+  "UID": "c3340b24015947e383ed88cb22a0b09f",
+  "allow_discussion": null,
+  "benefits": [
+    {
+      "@id": "d606f57b-e390-4bc3-af13-f40fd849e094",
+      "code": {
+        "title": "Logo no site",
+        "token": "eed7a517-2c43-4033-a6e1-9f7eae2d941d"
+      },
+      "id": "d606f57b-e390-4bc3-af13-f40fd849e094",
+      "title": "Logo no site",
+      "value": null
+    },
+    {
+      "@id": "d7f44ba8-5f52-4fb9-847d-303df5e7a85b",
+      "code": {
+        "title": "Redes Sociais",
+        "token": "583310a2-571e-4503-b569-75d957565fcd"
+      },
+      "id": "d7f44ba8-5f52-4fb9-847d-303df5e7a85b",
+      "title": "Redes Sociais",
+      "value": "5 postagens"
+    }
+  ],
+  "blocks": {
+    "082b4c9d-6d47-466e-a072-e833592fce43": {
+      "@type": "levelBenefitsBlock",
+      "tableTitle": "Compare",
+      "title": "Benef\u00edcios"
+    },
+    "24f147b7-f2ff-470b-b0c3-17ad47690b7f": {
+      "@type": "title"
+    },
+    "255febc8-8a28-4da4-8926-257340d77921": {
+      "@type": "slate"
+    },
+    "2ece4df0-e680-4124-8b60-48d7718086f6": {
+      "@type": "sponsorLevelBlock",
+      "displayCTA": false,
+      "href": [
+        {
+          "@id": "../../resolveuid/0e912a168b9e424cbde4f44594587162",
+          "@type": "Document",
+          "Description": "Patrocine o maior evento de Python do centro-oeste brasileiro",
+          "Title": "Patrocine",
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "title": "Patrocine"
+        }
+      ],
+      "label": "Junte-se a n\u00f3s",
+      "styles": {
+        "align:noprefix": {
+          "--block-alignment": "var(--align-center)"
+        }
+      },
+      "title": "Patrocinadores"
+    },
+    "b417559f-6177-4c9c-8928-0e98a4933699": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "24f147b7-f2ff-470b-b0c3-17ad47690b7f",
+      "b417559f-6177-4c9c-8928-0e98a4933699",
+      "082b4c9d-6d47-466e-a072-e833592fce43",
+      "2ece4df0-e680-4124-8b60-48d7718086f6",
+      "255febc8-8a28-4da4-8926-257340d77921"
+    ]
+  },
+  "changeNote": "",
+  "color": "#000000",
+  "created": "2025-05-24T18:22:25+00:00",
+  "description": "Cota de patroc\u00ednio Ouro",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "ouro",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-08-12T14:06:08+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "price": null,
+  "review_state": "published",
+  "title": "Ouro",
+  "type_title": "Sponsorship Level",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-05-24T18:22:25+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-05-24T19:03:45+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

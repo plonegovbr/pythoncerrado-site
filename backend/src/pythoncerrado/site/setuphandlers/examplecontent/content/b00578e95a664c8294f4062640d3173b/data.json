@@ -1,0 +1,114 @@
+{
+  "@id": "/2026/palestrantes",
+  "@type": "Document",
+  "UID": "b00578e95a664c8294f4062640d3173b",
+  "allow_discussion": null,
+  "blocks": {
+    "3c3b6eb7-c9e3-41a5-9dd5-ddd4d50cfc10": {
+      "@type": "description"
+    },
+    "6752405b-df93-4d99-8426-7638c1994119": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 3,
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Presenter"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/2026::-1"
+          }
+        ],
+        "sort_on": "sortable_title",
+        "sort_order": "ascending",
+        "sort_order_boolean": false
+      },
+      "styles": {
+        "--cardBorderColor": "",
+        "--cardBorderWidth": "",
+        "blockWidth:noprefix": "layout"
+      },
+      "theme": "default",
+      "variation": "grid"
+    },
+    "8f9332d6-8c76-4a96-8a2b-fe385348bad3": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "8f9332d6-8c76-4a96-8a2b-fe385348bad3",
+      "3c3b6eb7-c9e3-41a5-9dd5-ddd4d50cfc10",
+      "6752405b-df93-4d99-8426-7638c1994119"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-10-13T21:28:43+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Conhe\u00e7a as pessoas que apresentar\u00e3o palestras durante a Python Cerrado 2026",
+  "effective": "2026-10-13T21:29:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {
+    "immediately_addable_types": [
+      "Image",
+      "Presenter"
+    ],
+    "locally_allowed_types": [
+      "Image",
+      "Presenter"
+    ]
+  },
+  "exportimport.conversation": [],
+  "id": "palestrantes",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-14T13:15:04+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Palestrantes",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T21:28:43+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T21:29:10+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

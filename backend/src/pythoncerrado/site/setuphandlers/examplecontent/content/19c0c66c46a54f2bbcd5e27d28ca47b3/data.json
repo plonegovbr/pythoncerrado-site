@@ -1,0 +1,70 @@
+{
+  "@id": "/2026/grade",
+  "@type": "Schedule",
+  "UID": "19c0c66c46a54f2bbcd5e27d28ca47b3",
+  "allow_discussion": null,
+  "blocks": {
+    "483910c9-2033-41ec-af7a-739ac59c27db": {
+      "@type": "description"
+    },
+    "61ebe4ae-39a4-4006-a8ff-8a58d5ea6eb5": {
+      "@type": "title"
+    },
+    "d1ac23f1-f8ab-47c3-8b8e-8990796bb495": {
+      "@type": "scheduleBlock",
+      "displayDayIndex": false,
+      "styles": {
+        "align:noprefix": {
+          "--block-alignment": "var(--align-left)"
+        }
+      },
+      "title": "Programa\u00e7\u00e3o da Python Cerrado"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "61ebe4ae-39a4-4006-a8ff-8a58d5ea6eb5",
+      "483910c9-2033-41ec-af7a-739ac59c27db",
+      "d1ac23f1-f8ab-47c3-8b8e-8990796bb495"
+    ]
+  },
+  "changeNote": "",
+  "created": "2026-10-13T21:27:28+00:00",
+  "description": "Dois dias de palestras, com a melhor comunidade t\u00e9cnica do Brasil!",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "grade",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-13T21:29:10+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "title": "Grade",
+  "type_title": "Schedule",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T21:27:28+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T21:29:10+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

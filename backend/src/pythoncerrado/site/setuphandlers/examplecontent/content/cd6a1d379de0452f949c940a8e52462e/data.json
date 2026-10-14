@@ -1,0 +1,92 @@
+{
+  "@id": "/2026/sobre/local/auditorio-1",
+  "@type": "Room",
+  "UID": "cd6a1d379de0452f949c940a8e52462e",
+  "allow_discussion": null,
+  "blocks": {
+    "00039252-a3e7-49d1-bb0e-3c4682f3f6fd": {
+      "@type": "image",
+      "align": "center",
+      "credit": {},
+      "description": "",
+      "image_field": "image",
+      "size": "l",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
+      "url": "../../../../resolveuid/a6f0825a37ea47f4a82d35b242e21646"
+    },
+    "10d645f5-403e-4cf0-bda8-b9acf850ca32": {
+      "@type": "description"
+    },
+    "3626fcd5-62cd-449b-8d22-7a2035a3de99": {
+      "@type": "slate",
+      "plaintext": "Todas as atividades da Python Cerrado 2026 ocorrer\u00e3o no Audit\u00f3rio 1 do Bloco 1 do CEUB",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Todas as atividades da Python Cerrado 2026 ocorrer\u00e3o no Audit\u00f3rio 1 do Bloco 1 do CEUB"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "61a9c787-3cfa-4d01-b587-50277b6b5320": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "61a9c787-3cfa-4d01-b587-50277b6b5320",
+      "10d645f5-403e-4cf0-bda8-b9acf850ca32",
+      "00039252-a3e7-49d1-bb0e-3c4682f3f6fd",
+      "3626fcd5-62cd-449b-8d22-7a2035a3de99"
+    ]
+  },
+  "changeNote": "",
+  "created": "2026-10-13T12:00:00+00:00",
+  "description": "Audit\u00f3rio da Python Cerrado 2026",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "auditorio-1",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-14T12:44:01+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "title": "Bloco 1 - Audit\u00f3rio 1",
+  "type_title": "Room",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,39 @@
+{
+  "@id": "/2026/imagens/fale-conosco",
+  "@type": "Image",
+  "UID": "fb2d9f51c3cc4200ada54daf66a39465",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2025-05-26T08:32:21+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "fale-conosco",
+  "image": {
+    "blob_path": "fb2d9f51c3cc4200ada54daf66a39465/image/Fale Conosco",
+    "content-type": "image/jpeg",
+    "filename": "Fale Conosco",
+    "height": 946,
+    "size": 618493,
+    "width": 2047
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2025-05-26T08:32:22+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Fale Conosco",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,49 @@
+{
+  "@id": "/2026/grade/20261106/almoco",
+  "@type": "Break",
+  "UID": "b2e9c2a0191248a88f394c72f90a75f0",
+  "allow_discussion": null,
+  "changeNote": "",
+  "created": "2026-10-13T12:00:00+00:00",
+  "description": "",
+  "end": "2026-11-06T17:00:00+00:00",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "almoco",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-13T12:00:00+00:00",
+  "preview_caption_link": null,
+  "review_state": "published",
+  "room": null,
+  "slot_category": "lunch",
+  "start": "2026-11-06T15:00:00+00:00",
+  "subjects": [],
+  "title": "Almo\u00e7o",
+  "type_title": "Break",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

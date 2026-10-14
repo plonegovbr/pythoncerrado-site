@@ -1,0 +1,53 @@
+{
+  "@id": "/2026/grade/20261107/palestras-relampago",
+  "@type": "LightningTalks",
+  "UID": "403aa45bf89d4a97a55ac12b23540a21",
+  "allow_discussion": null,
+  "changeNote": "",
+  "created": "2026-10-13T12:00:00+00:00",
+  "description": "Sele\u00e7\u00e3o de palestras rel\u00e2mpago e cerim\u00f4nia de encerramento",
+  "end": "2026-11-07T20:30:00+00:00",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "palestras-relampago",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-14T11:58:51+00:00",
+  "preview_caption_link": null,
+  "review_state": "published",
+  "room": [
+    "cd6a1d379de0452f949c940a8e52462e"
+  ],
+  "session_video": null,
+  "slot_category": "activity",
+  "start": "2026-11-07T20:00:00+00:00",
+  "subjects": [],
+  "talks": [],
+  "title": "Palestras rel\u00e2mpago",
+  "type_title": "Lightning Talks",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

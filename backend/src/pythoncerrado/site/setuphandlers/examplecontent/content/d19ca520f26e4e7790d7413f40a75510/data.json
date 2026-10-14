@@ -1,0 +1,82 @@
+{
+  "@id": "/2026/grade/20261106",
+  "@type": "Document",
+  "UID": "d19ca520f26e4e7790d7413f40a75510",
+  "allow_discussion": null,
+  "blocks": {
+    "1d67dd4e-61f5-45b0-a883-a4078e827307": {
+      "@type": "title"
+    },
+    "2545631f-fa16-416f-bb2c-684e262358e5": {
+      "@type": "scheduleBlock",
+      "displayDayIndex": false,
+      "filterByDay": [
+        "2026-11-06"
+      ],
+      "styles": {
+        "align:noprefix": "left"
+      },
+      "title": "Grade do dia"
+    },
+    "3ad94d72-963b-4e65-a1c7-dfdd4499400a": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "1d67dd4e-61f5-45b0-a883-a4078e827307",
+      "3ad94d72-963b-4e65-a1c7-dfdd4499400a",
+      "2545631f-fa16-416f-bb2c-684e262358e5"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-10-13T12:00:00+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Atividades do dia 06 de novembro de 2026",
+  "effective": "2026-10-13T12:00:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "20261106",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-13T12:00:00+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "06 de Novembro",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

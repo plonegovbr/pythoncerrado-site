@@ -1,0 +1,39 @@
+{
+  "@id": "/2026/sobre/historia/python-cerrado-2024",
+  "@type": "Image",
+  "UID": "d85fafec46e1465e90b4b9793ae8fec4",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2025-05-24T22:11:53+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "python-cerrado-2024",
+  "image": {
+    "blob_path": "d85fafec46e1465e90b4b9793ae8fec4/image/Python Cerrado 2024",
+    "content-type": "image/jpeg",
+    "filename": "Python Cerrado 2024",
+    "height": 899,
+    "size": 425991,
+    "width": 1600
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2025-05-24T22:11:53+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Python Cerrado 2024",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,165 @@
+{
+  "@id": "/2026/imagens/logos",
+  "@type": "Document",
+  "UID": "f1fff73ca0f54fa7a8416fd4c3582498",
+  "allow_discussion": null,
+  "blocks": {
+    "187caecf-6162-4341-b040-8442fda3d2e8": {
+      "@type": "description"
+    },
+    "588af8b3-ff64-426c-af2e-2fe14c5b962e": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Image"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.relativePath",
+            "v": "."
+          }
+        ],
+        "sort_on": "getObjPositionInParent",
+        "sort_order": "ascending",
+        "sort_order_boolean": false
+      },
+      "variation": "imageGallery"
+    },
+    "966a2e3a-4850-408c-9d93-e3d1bba58cf3": {
+      "@type": "title"
+    },
+    "b6a14932-f5f6-4341-9ed1-631d8a7709d8": {
+      "@type": "slate",
+      "plaintext": "Cada tema da edi\u00e7\u00e3o 2026 tem um par de logos: um para fundo claro (cabe\u00e7alho) e um para fundo escuro (rodap\u00e9). Ao trocar o tema de /2026, troque tamb\u00e9m o logo e o logo do rodap\u00e9. Vereda  (padr\u00e3o): pythoncerrado-2026-logo-light / -dark Terra vermelha : pythoncerrado-2026-logo-terra-vermelha-light / -dark Ip\u00ea : pythoncerrado-2026-logo-ipe-light / -dark",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Cada tema da edi\u00e7\u00e3o 2026 tem um par de logos: um para fundo claro (cabe\u00e7alho) e um para fundo escuro (rodap\u00e9). Ao trocar o tema de /2026, troque tamb\u00e9m o logo e o logo do rodap\u00e9."
+            }
+          ],
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vereda"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " (padr\u00e3o): pythoncerrado-2026-logo-light / -dark"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Terra vermelha"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": pythoncerrado-2026-logo-terra-vermelha-light / -dark"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ip\u00ea"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": pythoncerrado-2026-logo-ipe-light / -dark"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "966a2e3a-4850-408c-9d93-e3d1bba58cf3",
+      "187caecf-6162-4341-b040-8442fda3d2e8",
+      "b6a14932-f5f6-4341-9ed1-631d8a7709d8",
+      "588af8b3-ff64-426c-af2e-2fe14c5b962e"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-10-13T12:00:00+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Logos da Python Cerrado 2026, um par por tema",
+  "effective": "2026-10-13T12:00:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "logos",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-13T12:00:00+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Logos",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

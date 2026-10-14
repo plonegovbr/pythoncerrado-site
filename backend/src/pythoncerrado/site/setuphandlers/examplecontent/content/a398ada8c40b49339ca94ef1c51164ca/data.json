@@ -1,0 +1,95 @@
+{
+  "@id": "/2026/ingressos",
+  "@type": "Document",
+  "UID": "a398ada8c40b49339ca94ef1c51164ca",
+  "allow_discussion": null,
+  "blocks": {
+    "1af5e384-d7ee-4494-ba92-9b2feb17afba": {
+      "@type": "title"
+    },
+    "3fcc2d46-a694-41c7-a290-678f2b6703b7": {
+      "@type": "description"
+    },
+    "b2745258-440d-4285-9736-7552fd9b5c09": {
+      "@type": "slate",
+      "plaintext": "As inscri\u00e7\u00f5es para a Python Cerrado 2026 ainda n\u00e3o est\u00e3o abertas. Acompanhe nossas redes sociais para saber quando os ingressos estiverem dispon\u00edveis. [Link de inscri\u00e7\u00e3o \u2014 a definir pela organiza\u00e7\u00e3o]",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "As inscri\u00e7\u00f5es para a Python Cerrado 2026 ainda n\u00e3o est\u00e3o abertas. Acompanhe nossas redes sociais para saber quando os ingressos estiverem dispon\u00edveis."
+            }
+          ],
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "[Link de inscri\u00e7\u00e3o \u2014 a definir pela organiza\u00e7\u00e3o]"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "1af5e384-d7ee-4494-ba92-9b2feb17afba",
+      "3fcc2d46-a694-41c7-a290-678f2b6703b7",
+      "b2745258-440d-4285-9736-7552fd9b5c09"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-10-13T12:00:00+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Garanta j\u00e1 o seu ingresso!",
+  "effective": "2026-10-13T12:00:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "ingressos",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-13T12:00:00+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Ingressos",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

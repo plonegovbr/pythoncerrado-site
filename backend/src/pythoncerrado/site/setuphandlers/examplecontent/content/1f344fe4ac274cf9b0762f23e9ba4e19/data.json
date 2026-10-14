@@ -1,0 +1,39 @@
+{
+  "@id": "/2026/imagens/conduta",
+  "@type": "Image",
+  "UID": "1f344fe4ac274cf9b0762f23e9ba4e19",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2025-05-26T08:32:14+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "conduta",
+  "image": {
+    "blob_path": "1f344fe4ac274cf9b0762f23e9ba4e19/image/Conduta",
+    "content-type": "image/jpeg",
+    "filename": "Conduta",
+    "height": 1365,
+    "size": 490241,
+    "width": 2048
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2025-05-26T08:32:14+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Conduta",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,247 @@
+{
+  "@id": "/2026/sobre",
+  "@type": "Document",
+  "UID": "e6c5c14a989a499dacabea5fe6aaee3a",
+  "allow_discussion": null,
+  "blocks": {
+    "5ec7487e-9a5d-4833-85af-e466783428c9": {
+      "@type": "gridBlock",
+      "blocks": {
+        "1212f9d8-f134-4a1a-9475-511fbba11ce5": {
+          "@type": "teaser",
+          "description": "Todos os participantes, instrutores e organizadores  da confer\u00eancia concordam em cumprir o C\u00f3digo de Conduta da Python Cerrado.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/da6bdc55d70f4db2ab3800e7cba9fdac",
+              "@type": "Document",
+              "Description": "Todos os participantes, instrutores e organizadores  da confer\u00eancia concordam em cumprir o C\u00f3digo de Conduta da Python Cerrado.",
+              "Title": "C\u00f3digo de Conduta",
+              "description": "Todos os participantes, instrutores e organizadores  da confer\u00eancia concordam em cumprir o C\u00f3digo de Conduta da Python Cerrado.",
+              "title": "C\u00f3digo de Conduta"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "resolveuid/1f344fe4ac274cf9b0762f23e9ba4e19",
+              "image_field": "image",
+              "title": "Conduta"
+            }
+          ],
+          "styles": {},
+          "theme": "default",
+          "title": "C\u00f3digo de Conduta"
+        },
+        "887262f4-f07c-4c4f-86f3-1d555ed89f84": {
+          "@type": "teaser",
+          "description": "Entre em contato com a organiza\u00e7\u00e3o do evento",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/1c942f2b2662448d9f11cfd192515509",
+              "@type": "Document",
+              "Description": "Entre em contato com a organiza\u00e7\u00e3o do evento",
+              "Title": "Fale Conosco",
+              "description": "Entre em contato com a organiza\u00e7\u00e3o do evento",
+              "title": "Fale Conosco"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "resolveuid/fb2d9f51c3cc4200ada54daf66a39465",
+              "image_field": "image",
+              "title": "Fale Conosco"
+            }
+          ],
+          "styles": {},
+          "theme": "default",
+          "title": "Fale Conosco"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "887262f4-f07c-4c4f-86f3-1d555ed89f84",
+          "1212f9d8-f134-4a1a-9475-511fbba11ce5"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "73303d04-5388-42df-aa9d-504d5d0312cc": {
+      "@type": "description"
+    },
+    "ca388397-37e3-4eea-bc94-82a84362ba66": {
+      "@type": "title"
+    },
+    "e71849e0-53b9-4a1a-ac8f-5ce27b6989ec": {
+      "@type": "gridBlock",
+      "blocks": {
+        "1d9e4b38-3eeb-4d24-9c3a-7a8425ce338e": {
+          "@type": "teaser",
+          "description": "A Python Cerrado 2026 acontece no campus Asa Norte do CEUB, em Bras\u00edlia, DF.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/621d7907e1c44dc8af6da5c19a3428e1",
+              "@type": "Venue",
+              "Description": "A Python Cerrado 2026 acontece no campus Asa Norte do CEUB, em Bras\u00edlia, DF.",
+              "Title": "CEUB \u2014 Campus Asa Norte",
+              "description": "A Python Cerrado 2026 acontece no campus Asa Norte do CEUB, em Bras\u00edlia, DF.",
+              "title": "CEUB \u2014 Campus Asa Norte"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "resolveuid/884592963d4d4660b508894961d1c3a3",
+              "image_field": "image",
+              "title": "pycerrado-2024-02.JPG"
+            }
+          ],
+          "styles": {},
+          "theme": "default",
+          "title": "Local"
+        },
+        "57d6a9c5-ad69-4e35-b3c0-29ada5fcaf68": {
+          "@type": "teaser",
+          "description": "A capital do pa\u00eds, inaugurada em 1960, \u00e9 conhecida por sua arquitetura modernista, planejada por L\u00facio Costa e Oscar Niemeyer.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/633a732e1c5c4b24863e6376e22cddef",
+              "@type": "Document",
+              "Description": "A capital do pa\u00eds, inaugurada em 1960, \u00e9 conhecida por sua arquitetura modernista, planejada por L\u00facio Costa e Oscar Niemeyer.",
+              "Title": "Bras\u00edlia, DF",
+              "description": "A capital do pa\u00eds, inaugurada em 1960, \u00e9 conhecida por sua arquitetura modernista, planejada por L\u00facio Costa e Oscar Niemeyer.",
+              "title": "Bras\u00edlia, DF"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "resolveuid/5242054628d743ca8da5e4ac530b23ca",
+              "image_field": "image",
+              "title": "Esplanada"
+            }
+          ],
+          "styles": {},
+          "theme": "default",
+          "title": "Bras\u00edlia, DF"
+        },
+        "da6050c5-753c-4027-8adf-1f9b38f3e6bc": {
+          "@type": "teaser",
+          "description": "O encontro da comunidade Python da regi\u00e3o Centro-Oeste do Brasil chega a sua quinta edi\u00e7\u00e3o com um hist\u00f3rico de conte\u00fado e p\u00fablico diversificado",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/0214e9da87cc40b79ecd16340de0f731",
+              "@type": "Document",
+              "Description": "O encontro da comunidade Python da regi\u00e3o Centro-Oeste do Brasil chega a sua quinta edi\u00e7\u00e3o com um hist\u00f3rico de conte\u00fado e p\u00fablico diversificado",
+              "Title": "Edi\u00e7\u00f5es Anteriores",
+              "description": "O encontro da comunidade Python da regi\u00e3o Centro-Oeste do Brasil chega a sua quinta edi\u00e7\u00e3o com um hist\u00f3rico de conte\u00fado e p\u00fablico diversificado",
+              "title": "Edi\u00e7\u00f5es Anteriores"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "resolveuid/d85fafec46e1465e90b4b9793ae8fec4",
+              "image_field": "image",
+              "title": "Python Cerrado 2024"
+            }
+          ],
+          "styles": {},
+          "theme": "default",
+          "title": "Edi\u00e7\u00f5es Anteriores"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "1d9e4b38-3eeb-4d24-9c3a-7a8425ce338e",
+          "57d6a9c5-ad69-4e35-b3c0-29ada5fcaf68",
+          "da6050c5-753c-4027-8adf-1f9b38f3e6bc"
+        ]
+      },
+      "headline": "Saiba mais",
+      "styles": {},
+      "theme": "default"
+    },
+    "f2d4c1b5-b25a-47e5-bda6-fb0c3a4c83e5": {
+      "@type": "slate",
+      "plaintext": "Em um contexto diverso, dedicado \u00e0 troca de experi\u00eancias e conhecimento, o evento est\u00e1 aberto a indiv\u00edduos de v\u00e1rias origens e n\u00edveis de profici\u00eancia na linguagem.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Em um contexto diverso, dedicado \u00e0 troca de experi\u00eancias e conhecimento, o evento est\u00e1 aberto a indiv\u00edduos de v\u00e1rias origens e n\u00edveis de profici\u00eancia na linguagem."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "ca388397-37e3-4eea-bc94-82a84362ba66",
+      "73303d04-5388-42df-aa9d-504d5d0312cc",
+      "f2d4c1b5-b25a-47e5-bda6-fb0c3a4c83e5",
+      "e71849e0-53b9-4a1a-ac8f-5ce27b6989ec",
+      "5ec7487e-9a5d-4833-85af-e466783428c9"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-10-13T21:24:42+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "A Python Cerrado, encontro da comunidade Python na regi\u00e3o Centro-Oeste do Brasil, ser\u00e1 realizada nos dias 06 e 07 de novembro de 2026 em Bras\u00edlia, DF.",
+  "effective": "2026-10-13T21:29:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "sobre",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-13T21:29:09+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Sobre",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T21:24:42+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T21:29:09+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

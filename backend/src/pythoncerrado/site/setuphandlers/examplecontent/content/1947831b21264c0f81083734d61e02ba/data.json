@@ -1,0 +1,849 @@
+{
+  "@id": "/2026",
+  "@type": "Tech Event",
+  "UID": "1947831b21264c0f81083734d61e02ba",
+  "allow_discussion": null,
+  "audience": [
+    {
+      "@id": "f59d4635-5f42-4775-8641-9fbff8df46de",
+      "color": "#0c5a47",
+      "id": "f59d4635-5f42-4775-8641-9fbff8df46de",
+      "title": "Dev"
+    },
+    {
+      "@id": "1b882a1a-2f75-44bf-af32-c4095d47829c",
+      "color": "#3b2a1e",
+      "id": "1b882a1a-2f75-44bf-af32-c4095d47829c",
+      "title": "SysAdmin"
+    },
+    {
+      "@id": "3e0faf55-6d23-447f-bbc3-3e7636b2384a",
+      "color": "#5b2a86",
+      "id": "3e0faf55-6d23-447f-bbc3-3e7636b2384a",
+      "title": "Cientista"
+    }
+  ],
+  "blocks": {
+    "0bad4c65-9afc-4a9b-8f83-bd1e65a658a7": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../resolveuid/0e912a168b9e424cbde4f44594587162",
+          "title": "Seja um patrocinador"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Seja um patrocinador"
+    },
+    "21e1b3ec-1735-41a9-8237-5b6f739a0ccf": {
+      "@type": "gridBlock",
+      "blocks": {
+        "70339b66-4490-4c67-87b3-5b45ee20f121": {
+          "@type": "teaser",
+          "description": "Palestras e tutoriais, do iniciante ao avan\u00e7ado.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/f49c98655a7c458eb920747d4c0b02b2",
+              "@type": "Document",
+              "Description": "Compartilhe o que voc\u00ea aprendeu com a comunidade Python do Centro-Oeste. Propostas abertas at\u00e9 [DATA_LIMITE].",
+              "Subject": [],
+              "Title": "Chamada de Trabalhos",
+              "description": "Compartilhe o que voc\u00ea aprendeu com a comunidade Python do Centro-Oeste. Propostas abertas at\u00e9 [DATA_LIMITE].",
+              "effective": "2026-10-13T12:00:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "Chamada de Trabalhos",
+              "type_title": "P\u00e1gina"
+            }
+          ],
+          "overwrite": true,
+          "styles": {},
+          "theme": "default",
+          "title": "Submeta sua palestra"
+        },
+        "70ed45e2-22b6-4b61-bfd5-703a2e8bacd8": {
+          "@type": "teaser",
+          "description": "Cotas Ouro, Prata, Bronze e Apoio.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/0e912a168b9e424cbde4f44594587162",
+              "@type": "Document",
+              "Description": "Patrocine o maior evento de Python do centro-oeste brasileiro",
+              "Subject": [],
+              "Title": "Seja um patrocinador",
+              "description": "Patrocine o maior evento de Python do centro-oeste brasileiro",
+              "effective": "2025-05-24T19:56:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": "Patrocine",
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "Seja um patrocinador",
+              "type_title": "P\u00e1gina"
+            }
+          ],
+          "overwrite": true,
+          "styles": {},
+          "theme": "default",
+          "title": "Seja um patrocinador"
+        },
+        "9280d018-1bc6-42d8-b5f9-0e704e2a4b65": {
+          "@type": "teaser",
+          "description": "Dois dias de conte\u00fado e comunidade em Bras\u00edlia.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/a398ada8c40b49339ca94ef1c51164ca",
+              "@type": "Document",
+              "Description": "Garanta j\u00e1 o seu ingresso!",
+              "Subject": [],
+              "Title": "Ingressos",
+              "description": "Garanta j\u00e1 o seu ingresso!",
+              "effective": "2026-10-13T12:00:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "Ingressos",
+              "type_title": "P\u00e1gina"
+            }
+          ],
+          "overwrite": true,
+          "styles": {},
+          "theme": "default",
+          "title": "Garanta seu ingresso"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "70339b66-4490-4c67-87b3-5b45ee20f121",
+          "9280d018-1bc6-42d8-b5f9-0e704e2a4b65",
+          "70ed45e2-22b6-4b61-bfd5-703a2e8bacd8"
+        ]
+      },
+      "styles": {
+        "blockWidth:noprefix": "layout"
+      },
+      "theme": "default"
+    },
+    "2d6bd2f0-e664-44de-9296-03486d8add84": {
+      "@type": "slate",
+      "plaintext": "Em um contexto diverso, dedicado \u00e0 troca de experi\u00eancias e conhecimento, o evento est\u00e1 aberto a indiv\u00edduos de v\u00e1rias origens e n\u00edveis de profici\u00eancia na linguagem.",
+      "styles": {},
+      "theme": "brand",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Em um contexto diverso, dedicado \u00e0 troca de experi\u00eancias e conhecimento, o evento est\u00e1 aberto a indiv\u00edduos de v\u00e1rias origens e n\u00edveis de profici\u00eancia na linguagem."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6f2187ad-d8bb-439e-8959-82f2f825d800": {
+      "@type": "gridBlock",
+      "blocks": {
+        "bc645170-6002-458e-a4f6-1f4393b316cd": {
+          "@type": "teaser",
+          "description": "O que esperamos de todas as pessoas participantes.",
+          "head_title": "Sobre",
+          "href": [
+            {
+              "@id": "../resolveuid/da6bdc55d70f4db2ab3800e7cba9fdac",
+              "@type": "Document",
+              "Description": "Todos os participantes, instrutores e organizadores  da confer\u00eancia concordam em cumprir o C\u00f3digo de Conduta da Python Cerrado.",
+              "Subject": [],
+              "Title": "C\u00f3digo de Conduta",
+              "description": "Todos os participantes, instrutores e organizadores  da confer\u00eancia concordam em cumprir o C\u00f3digo de Conduta da Python Cerrado.",
+              "effective": "2025-05-24T19:03:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "C\u00f3digo de Conduta",
+              "type_title": "P\u00e1gina"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "../resolveuid/1f344fe4ac274cf9b0762f23e9ba4e19",
+              "image_field": "image",
+              "title": "Conduta"
+            }
+          ],
+          "styles": {},
+          "theme": "default",
+          "title": "C\u00f3digo de Conduta"
+        },
+        "d1cef05a-a8d3-44e8-ba4d-9931296c2e00": {
+          "@type": "teaser",
+          "description": "Onde a Python Cerrado 2026 acontece e como chegar.",
+          "head_title": "Sobre",
+          "href": [
+            {
+              "@id": "../resolveuid/621d7907e1c44dc8af6da5c19a3428e1",
+              "@type": "Venue",
+              "Description": "A Python Cerrado 2026 acontece no campus Asa Norte do CEUB, em Bras\u00edlia, DF.",
+              "Subject": [],
+              "Title": "CEUB \u2014 Campus Asa Norte",
+              "description": "A Python Cerrado 2026 acontece no campus Asa Norte do CEUB, em Bras\u00edlia, DF.",
+              "effective": "1969-12-31T03:00:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": "Local",
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "CEUB \u2014 Campus Asa Norte",
+              "type_title": "Local"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "../resolveuid/884592963d4d4660b508894961d1c3a3",
+              "image_field": "image",
+              "title": "pycerrado-2024-02.JPG"
+            }
+          ],
+          "styles": {},
+          "theme": "default",
+          "title": "Local"
+        },
+        "dbbf4627-bce9-4d8c-94a5-bb5111332144": {
+          "@type": "teaser",
+          "description": "Hospedagem, transporte e o que visitar na capital.",
+          "head_title": "Sobre",
+          "href": [
+            {
+              "@id": "../resolveuid/633a732e1c5c4b24863e6376e22cddef",
+              "@type": "Document",
+              "Description": "A capital do pa\u00eds, inaugurada em 1960, \u00e9 conhecida por sua arquitetura modernista, planejada por L\u00facio Costa e Oscar Niemeyer.",
+              "Subject": [],
+              "Title": "Bras\u00edlia, DF",
+              "description": "A capital do pa\u00eds, inaugurada em 1960, \u00e9 conhecida por sua arquitetura modernista, planejada por L\u00facio Costa e Oscar Niemeyer.",
+              "effective": "2025-05-24T22:26:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "Bras\u00edlia, DF",
+              "type_title": "P\u00e1gina"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "../resolveuid/5242054628d743ca8da5e4ac530b23ca",
+              "image_field": "image",
+              "title": "Esplanada"
+            }
+          ],
+          "styles": {},
+          "theme": "default",
+          "title": "Bras\u00edlia, DF"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "d1cef05a-a8d3-44e8-ba4d-9931296c2e00",
+          "dbbf4627-bce9-4d8c-94a5-bb5111332144",
+          "bc645170-6002-458e-a4f6-1f4393b316cd"
+        ]
+      },
+      "headline": "Saiba mais",
+      "styles": {
+        "blockWidth:noprefix": "layout"
+      },
+      "theme": "default"
+    },
+    "7c730b5b-ba9a-403f-b5f8-01734ca0bdd2": {
+      "@type": "teaser",
+      "description": "Assista a todas as palestras de 2025 no nosso canal do YouTube",
+      "head_title": "Edi\u00e7\u00f5es anteriores",
+      "href": [
+        {
+          "@id": "https://www.youtube.com/@PythonCerrado",
+          "title": "https://www.youtube.com/@PythonCerrado"
+        }
+      ],
+      "overwrite": true,
+      "preview_image": [
+        {
+          "@id": "../resolveuid/99133a341ac047fcbe477192cf4ea371",
+          "image_field": "image",
+          "title": "video.001.png"
+        }
+      ],
+      "styles": {
+        "align": "left",
+        "blockWidth:noprefix": "layout"
+      },
+      "theme": "brand",
+      "title": "Keynote e Palestras"
+    },
+    "9401fb0d-346a-40fc-a667-838efeeea03a": {
+      "@type": "heroBlock",
+      "blockWidth": {
+        "--block-width": "var(--layout-container-width)"
+      },
+      "button": true,
+      "buttonLink": [
+        {
+          "@id": "../resolveuid/f49c98655a7c458eb920747d4c0b02b2",
+          "@type": "Document",
+          "Description": "Compartilhe o que voc\u00ea aprendeu com a comunidade Python do Centro-Oeste. Propostas abertas at\u00e9 [DATA_LIMITE].",
+          "Title": "Chamada de Trabalhos",
+          "description": "Compartilhe o que voc\u00ea aprendeu com a comunidade Python do Centro-Oeste. Propostas abertas at\u00e9 [DATA_LIMITE].",
+          "title": "Chamada de Trabalhos"
+        }
+      ],
+      "buttonText": "Submeta sua palestra",
+      "description": "O encontro da comunidade Python do Centro-Oeste. Submeta sua palestra at\u00e9 [DATA_LIMITE].",
+      "fullWidth": false,
+      "fullWidthImage": false,
+      "headerText": "06 e 07 de novembro de 2026 \u00b7 Bras\u00edlia, DF",
+      "hideImage": false,
+      "href": [
+        {
+          "@id": "../resolveuid/f49c98655a7c458eb920747d4c0b02b2",
+          "@type": "Document",
+          "Description": "Compartilhe o que voc\u00ea aprendeu com a comunidade Python do Centro-Oeste. Propostas abertas at\u00e9 [DATA_LIMITE].",
+          "Title": "Chamada de Trabalhos",
+          "description": "Compartilhe o que voc\u00ea aprendeu com a comunidade Python do Centro-Oeste. Propostas abertas at\u00e9 [DATA_LIMITE].",
+          "title": "Chamada de Trabalhos"
+        }
+      ],
+      "imageFit": "cover",
+      "imageSize": "40%",
+      "overwrite": true,
+      "preview_image": [
+        {
+          "@id": "../resolveuid/fa9a810f91ec4a1090013601c98e2fc5",
+          "image_field": "image",
+          "title": "foto oficial 2024.jpg"
+        }
+      ],
+      "showDate": false,
+      "styles": {},
+      "tags": [],
+      "textSide": "left",
+      "theme": "brand",
+      "title": "Python Cerrado 2026",
+      "titleTag": "h1",
+      "variation": "flex"
+    },
+    "9c39dc3d-ba70-4d43-8549-c23e7687b75c": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "O evento",
+      "styles": {},
+      "tag": "h2",
+      "theme": "brand"
+    },
+    "f0b648eb-2e27-4a8b-a94e-ecfd9db4c066": {
+      "@type": "slate",
+      "plaintext": "A Python Cerrado, encontro da comunidade Python na regi\u00e3o Centro-Oeste do Brasil, ser\u00e1 realizada nos dias 06 e 07 de novembro de 2026 em Bras\u00edlia, DF.",
+      "styles": {},
+      "theme": "brand",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A Python Cerrado, encontro da comunidade Python na regi\u00e3o Centro-Oeste do Brasil, ser\u00e1 realizada nos dias 06 e 07 de novembro de 2026 em Bras\u00edlia, DF. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f7703a97-94eb-4b79-9a66-2f4110c751cb": {
+      "@type": "sponsorsShowcaseBlock",
+      "styles": {
+        "align:noprefix": "center"
+      },
+      "title": "Patrocinadores"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "9401fb0d-346a-40fc-a667-838efeeea03a",
+      "21e1b3ec-1735-41a9-8237-5b6f739a0ccf",
+      "9c39dc3d-ba70-4d43-8549-c23e7687b75c",
+      "f0b648eb-2e27-4a8b-a94e-ecfd9db4c066",
+      "2d6bd2f0-e664-44de-9296-03486d8add84",
+      "6f2187ad-d8bb-439e-8959-82f2f825d800",
+      "f7703a97-94eb-4b79-9a66-2f4110c751cb",
+      "0bad4c65-9afc-4a9b-8f83-bd1e65a658a7",
+      "7c730b5b-ba9a-403f-b5f8-01734ca0bdd2"
+    ]
+  },
+  "changeNote": "",
+  "created": "2026-10-13T19:47:34+00:00",
+  "days": [
+    "2026-11-06",
+    "2026-11-07"
+  ],
+  "description": "O encontro da comunidade Python do Centro-Oeste do Brasil. 06 e 07 de novembro de 2026, Bras\u00edlia, DF.",
+  "durations_keynote": [
+    {
+      "@id": "a2fcbb06-55fa-49b6-93ff-1ad82012dd79",
+      "color": "#5b2a86",
+      "duration": 50,
+      "id": "a2fcbb06-55fa-49b6-93ff-1ad82012dd79",
+      "title": "Keynote"
+    }
+  ],
+  "durations_talk": [
+    {
+      "@id": "28c13e1a-b15a-4310-8777-cf06e1f6fcb1",
+      "color": "#0f6b55",
+      "duration": 44,
+      "id": "28c13e1a-b15a-4310-8777-cf06e1f6fcb1",
+      "title": "Palestra"
+    }
+  ],
+  "durations_training": [
+    {
+      "@id": "75804b23-e448-41e4-939f-0f0882595ee2",
+      "color": "#123a2c",
+      "duration": 240,
+      "id": "75804b23-e448-41e4-939f-0f0882595ee2",
+      "title": "4 horas"
+    },
+    {
+      "@id": "704ba19f-2e39-40c1-919f-645a2eeb2366",
+      "color": "#b23a12",
+      "duration": 480,
+      "id": "704ba19f-2e39-40c1-919f-645a2eeb2366",
+      "title": "8 horas"
+    }
+  ],
+  "end": "2026-11-07T21:00:00+00:00",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "footer_address": null,
+  "footer_brand_message": "O encontro da comunidade Python do Centro-Oeste do Brasil.",
+  "footer_brand_slogan": "Python Cerrado 2026 \u00b7 06 e 07 de novembro \u00b7 Bras\u00edlia, DF",
+  "footer_colophon_right_text": null,
+  "footer_colophon_text": [
+    {
+      "children": [
+        {
+          "text": "Site desenvolvido com \u2764\ufe0f pela "
+        },
+        {
+          "children": [
+            {
+              "text": "PloneGov-BR"
+            }
+          ],
+          "data": {
+            "url": "https://plone.org.br"
+          },
+          "type": "link"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "type": "p"
+    }
+  ],
+  "footer_column_left": [
+    {
+      "@id": "8b85441a-f6b0-46df-89d6-9cf5154bf71b",
+      "href": [
+        {
+          "@id": "/2026/sobre",
+          "title": "Sobre"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Sobre"
+    },
+    {
+      "@id": "f2b428db-3ea5-4f5d-9266-fafc61c7d490",
+      "href": [
+        {
+          "@id": "/2026/sobre/local",
+          "title": "Local"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Local"
+    },
+    {
+      "@id": "ba52794f-80e9-4c6c-8b53-bcd8628c22d2",
+      "href": [
+        {
+          "@id": "/2026/sobre/brasilia-df",
+          "title": "Bras\u00edlia, DF"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Bras\u00edlia, DF"
+    },
+    {
+      "@id": "3ba907f6-2bfd-4e50-bd5d-294b526ec048",
+      "href": [
+        {
+          "@id": "/2026/sobre/codigo-de-conduta",
+          "title": "C\u00f3digo de Conduta"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "C\u00f3digo de Conduta"
+    },
+    {
+      "@id": "0b83a594-b5c2-440b-8d64-e8f413afb354",
+      "href": [
+        {
+          "@id": "/2026/sobre/contato",
+          "title": "Fale Conosco"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Fale Conosco"
+    }
+  ],
+  "footer_column_left_header": "O evento",
+  "footer_column_middle": [
+    {
+      "@id": "f002babf-6561-4b80-a2b2-f597a6cd37b1",
+      "href": [
+        {
+          "@id": "/2026/chamada-de-trabalhos",
+          "title": "Chamada de Trabalhos"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Chamada de Trabalhos"
+    },
+    {
+      "@id": "c3b207c5-d25f-461c-9865-3ff3b72c5fc5",
+      "href": [
+        {
+          "@id": "/2026/ingressos",
+          "title": "Ingressos"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Ingressos"
+    },
+    {
+      "@id": "0b7af4fc-06d3-4308-8459-c63fbe2aa2e5",
+      "href": [
+        {
+          "@id": "/2026/patrocine/patrocine",
+          "title": "Seja um patrocinador"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Seja um patrocinador"
+    }
+  ],
+  "footer_column_middle_header": "Participe",
+  "footer_column_right": [
+    {
+      "@id": "f6173a1c-2ab6-4340-b1c6-610074dd16c2",
+      "href": [
+        {
+          "@id": "/2026",
+          "title": "2026"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "2026"
+    },
+    {
+      "@id": "5b001644-8b5c-4f0b-a1fc-af08a0d832b1",
+      "href": [
+        {
+          "@id": "/2025",
+          "title": "2025"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "2025"
+    },
+    {
+      "@id": "0316fb40-6634-46aa-bc01-f489c47f84a9",
+      "href": [
+        {
+          "@id": "/2026/sobre/historia",
+          "title": "Edi\u00e7\u00f5es Anteriores"
+        }
+      ],
+      "openLinkInNewTab": false,
+      "title": "Edi\u00e7\u00f5es Anteriores"
+    },
+    {
+      "@id": "16369b1f-4362-4225-b033-305a57c052e5",
+      "href": [
+        {
+          "@id": "https://www.youtube.com/@PythonCerrado",
+          "title": "YouTube"
+        }
+      ],
+      "openLinkInNewTab": true,
+      "title": "YouTube"
+    }
+  ],
+  "footer_column_right_header": "Edi\u00e7\u00f5es",
+  "footer_links": [],
+  "footer_logo": {
+    "blob_path": "1947831b21264c0f81083734d61e02ba/footer_logo/pythoncerrado-2026-logo-dark.png",
+    "content-type": "image/png",
+    "filename": "pythoncerrado-2026-logo-dark.png",
+    "height": 592,
+    "size": 69768,
+    "width": 1690
+  },
+  "footer_logos": [],
+  "footer_logos_container_width": "default",
+  "footer_logos_size": "s",
+  "has_fat_menu": true,
+  "header_actions": [],
+  "id": "2026",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "levels": [
+    {
+      "@id": "bf82dd87-e832-46c4-93d9-ab732b0c2796",
+      "color": "#0f6b55",
+      "id": "bf82dd87-e832-46c4-93d9-ab732b0c2796",
+      "title": "Iniciante"
+    },
+    {
+      "@id": "00dfc721-461f-413a-bf93-8d32b7652938",
+      "color": "#9a4a0e",
+      "id": "00dfc721-461f-413a-bf93-8d32b7652938",
+      "title": "Intermedi\u00e1rio"
+    },
+    {
+      "@id": "db001064-afc5-4a62-a185-9621794835ee",
+      "color": "#9c3210",
+      "id": "db001064-afc5-4a62-a185-9621794835ee",
+      "title": "Avan\u00e7ado"
+    }
+  ],
+  "lock": {},
+  "logo": {
+    "blob_path": "1947831b21264c0f81083734d61e02ba/logo/pythoncerrado-2026-logo-light.png",
+    "content-type": "image/png",
+    "filename": "pythoncerrado-2026-logo-light.png",
+    "height": 592,
+    "size": 72907,
+    "width": 1690
+  },
+  "modified": "2026-10-14T12:31:46+00:00",
+  "nav_title": "2026",
+  "preview_caption_link": null,
+  "review_state": "published",
+  "schedule_review_states": [],
+  "start": "2026-11-06T11:00:00+00:00",
+  "theme": {
+    "title": "Python Cerrado 2026",
+    "token": "pythoncerrado-2026",
+    "value": {
+      "accent_accent_color_dark": "#ffffff",
+      "accent_accent_color_light": "#ffffff",
+      "accent_color_dark": "#0f6b55",
+      "accent_color_light": "#0f6b55",
+      "accent_foreground_color_dark": "#ffffff",
+      "accent_foreground_color_light": "#ffffff",
+      "accent_low_foreground_color_dark": "#d6efe6",
+      "accent_low_foreground_color_light": "#d6efe6",
+      "event_color_dark": "#6fcfae",
+      "event_color_light": "#0f6b55",
+      "file_color_dark": "#b8a998",
+      "file_color_light": "#6b5d4f",
+      "font_family_primary": "Outfit, sans-serif",
+      "font_family_secondary": "Outfit, sans-serif",
+      "image_color_dark": "#f0a060",
+      "image_color_light": "#9a4a0e",
+      "neutral_accent_color_dark": "#7fd6b8",
+      "neutral_accent_color_light": "#0c5a47",
+      "neutral_color_dark": "#1f1d18",
+      "neutral_color_light": "#f5efe3",
+      "neutral_foreground_color_dark": "#f4f1ea",
+      "neutral_foreground_color_light": "#1c1a16",
+      "neutral_low_foreground_color_dark": "#c8c2b6",
+      "neutral_low_foreground_color_light": "#55504a",
+      "primary_accent_color_dark": "#6fcfae",
+      "primary_accent_color_light": "#0f6b55",
+      "primary_color_dark": "#13120f",
+      "primary_color_light": "#ffffff",
+      "primary_foreground_color_dark": "#f4f1ea",
+      "primary_foreground_color_light": "#1c1a16",
+      "primary_low_foreground_color_dark": "#c8c2b6",
+      "primary_low_foreground_color_light": "#55504a",
+      "secondary_accent_color_dark": "#f2b544",
+      "secondary_accent_color_light": "#f2b544",
+      "secondary_color_dark": "#2a1d14",
+      "secondary_color_light": "#3b2a1e",
+      "secondary_foreground_color_dark": "#ffffff",
+      "secondary_foreground_color_light": "#ffffff",
+      "secondary_low_foreground_color_dark": "#d9c9b6",
+      "secondary_low_foreground_color_light": "#e4d6c4"
+    }
+  },
+  "title": "Python Cerrado 2026",
+  "tracks": [
+    {
+      "@id": "131",
+      "color": "#123a2c",
+      "id": "131",
+      "title": "Plone"
+    },
+    {
+      "@id": "135",
+      "color": "#0f6b55",
+      "id": "135",
+      "title": "Programa\u00e7\u00e3o criativa com Python"
+    },
+    {
+      "@id": "136",
+      "color": "#0f6b55",
+      "id": "136",
+      "title": "Desenvolvimento Web com Python"
+    },
+    {
+      "@id": "137",
+      "color": "#0f6b55",
+      "id": "137",
+      "title": "Python para Ci\u00eancia de dados"
+    },
+    {
+      "@id": "138",
+      "color": "#0f6b55",
+      "id": "138",
+      "title": "Python para IA / Machine Learning"
+    },
+    {
+      "@id": "139",
+      "color": "#0f6b55",
+      "id": "139",
+      "title": "Python para Finan\u00e7as"
+    },
+    {
+      "@id": "140",
+      "color": "#0f6b55",
+      "id": "140",
+      "title": "Python para An\u00e1lise de dados geogr\u00e1ficos"
+    },
+    {
+      "@id": "141",
+      "color": "#0f6b55",
+      "id": "141",
+      "title": "Python para DevOps"
+    },
+    {
+      "@id": "142",
+      "color": "#0f6b55",
+      "id": "142",
+      "title": "Desenvolvimento com Python"
+    },
+    {
+      "@id": "143",
+      "color": "#9a4a0e",
+      "id": "143",
+      "title": "Python em Educa\u00e7\u00e3o"
+    },
+    {
+      "@id": "144",
+      "color": "#b23a12",
+      "id": "144",
+      "title": "Comunidades / Inclus\u00e3o / Diversidade"
+    },
+    {
+      "@id": "145",
+      "color": "#3b2a1e",
+      "id": "145",
+      "title": "Documenta\u00e7\u00e3o"
+    },
+    {
+      "@id": "146",
+      "color": "#3b2a1e",
+      "id": "146",
+      "title": "Outro"
+    },
+    {
+      "@id": "147",
+      "color": "#5b2a86",
+      "id": "147",
+      "title": "Keynote"
+    }
+  ],
+  "type_title": "Tech Event",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T19:47:34+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T19:47:58+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,39 @@
+{
+  "@id": "/imagens/pythoncerrado-2026-logo-light.png",
+  "@type": "Image",
+  "UID": "4b29fa1bc89a4a888f0124c9d9f4e3a4",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-10-14T12:08:46+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "pythoncerrado-2026-logo-light.png",
+  "image": {
+    "blob_path": "4b29fa1bc89a4a888f0124c9d9f4e3a4/image/pythoncerrado-2026-logo-light.png",
+    "content-type": "image/png",
+    "filename": "pythoncerrado-2026-logo-light.png",
+    "height": 592,
+    "size": 72907,
+    "width": 1690
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-10-14T12:08:46+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "pythoncerrado-2026-logo-light.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

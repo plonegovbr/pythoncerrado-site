@@ -1,0 +1,85 @@
+{
+  "@id": "/2026/patrocine/prata",
+  "@type": "SponsorLevel",
+  "UID": "f36c2d84ac4d4614a138009fe9d9531d",
+  "allow_discussion": null,
+  "benefits": [],
+  "blocks": {
+    "3be51684-fbb1-40bc-9248-e859a254d794": {
+      "@type": "sponsorLevelBlock",
+      "displayCTA": true,
+      "href": [
+        {
+          "@id": "../../resolveuid/0e912a168b9e424cbde4f44594587162",
+          "@type": "Document",
+          "Description": "Patrocine o maior evento de Python do centro-oeste brasileiro",
+          "Title": "Patrocine",
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "title": "Patrocine"
+        }
+      ],
+      "label": "Junte-se a n\u00f3s",
+      "styles": {
+        "align:noprefix": {
+          "--block-alignment": "var(--align-center)"
+        }
+      }
+    },
+    "5d717532-5e5b-4825-9927-2d595df6496a": {
+      "@type": "description"
+    },
+    "875157be-262a-4e46-8556-474dfa7eabb9": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "875157be-262a-4e46-8556-474dfa7eabb9",
+      "5d717532-5e5b-4825-9927-2d595df6496a",
+      "3be51684-fbb1-40bc-9248-e859a254d794"
+    ]
+  },
+  "changeNote": "",
+  "color": "#000000",
+  "created": "2025-05-24T18:22:45+00:00",
+  "description": "Cota de patroc\u00ednio Prata",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "prata",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-05-24T19:52:58+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "price": null,
+  "review_state": "published",
+  "title": "Prata",
+  "type_title": "Sponsorship Level",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-05-24T18:22:45+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-05-24T19:03:45+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

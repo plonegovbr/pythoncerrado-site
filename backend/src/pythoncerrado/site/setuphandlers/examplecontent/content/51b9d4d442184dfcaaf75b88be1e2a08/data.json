@@ -1,0 +1,56 @@
+{
+  "@id": "/2026/imagens/logos/pythoncerrado-2026-logo-light.png",
+  "@type": "Image",
+  "UID": "51b9d4d442184dfcaaf75b88be1e2a08",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-10-13T12:00:00+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2026-10-13T12:00:00+00:00",
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "pythoncerrado-2026-logo-light.png",
+  "image": {
+    "blob_path": "51b9d4d442184dfcaaf75b88be1e2a08/image/pythoncerrado-2026-logo-light.png",
+    "content-type": "image/png",
+    "filename": "pythoncerrado-2026-logo-light.png",
+    "height": 592,
+    "size": 72907,
+    "width": 1690
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-10-13T12:00:00+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Logo 2026 \u2014 Vereda \u2014 fundo claro",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-13T12:00:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-13T12:00:00+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

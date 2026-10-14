@@ -1,0 +1,104 @@
+{
+  "@id": "/2026/palestrantes/victor-fernandez-de-alba",
+  "@type": "Presenter",
+  "UID": "b61664fdbfbc47deb6e08021b702a21b",
+  "activities": [],
+  "allow_discussion": null,
+  "categories": [
+    "speaker"
+  ],
+  "changeNote": "",
+  "created": "2026-10-14T12:23:39+00:00",
+  "description": "V\u00edctor \u00e9 o CTO da kitconcept GmbH, uma consultoria especializada em Plone com sede em Bonn, Alemanha",
+  "email": "victor@plone.org",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "victor-fernandez-de-alba",
+  "image": {
+    "blob_path": "b61664fdbfbc47deb6e08021b702a21b/image/victor.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "victor.jpeg",
+    "height": 1767,
+    "size": 784986,
+    "width": 1766
+  },
+  "image_caption": null,
+  "is_folderish": false,
+  "labels": [
+    {
+      "title": "Speaker",
+      "token": "speaker"
+    }
+  ],
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-14T12:23:42+00:00",
+  "review_state": "published",
+  "social_links": [
+    {
+      "@id": "9e3437e6-41de-4bf4-9e25-fa5ab04e91d8",
+      "href": [
+        {
+          "@id": "https://github.com/sneridagh",
+          "title": "github.com/sneridagh"
+        }
+      ],
+      "id": "github",
+      "title": "GitHub"
+    },
+    {
+      "@id": "47d7f88e-e439-4a17-8371-ae9b96358842",
+      "href": [
+        {
+          "@id": "https://fosstodon.org/@sneridagh",
+          "title": "fosstodon.org/@sneridagh"
+        }
+      ],
+      "id": "mastodon",
+      "title": "Mastodon"
+    },
+    {
+      "@id": "63e70554-9869-427c-972e-453b9b69d05a",
+      "href": [
+        {
+          "@id": "https://x.com/sneridagh",
+          "title": "x.com/sneridagh"
+        }
+      ],
+      "id": "x",
+      "title": "X (Twitter)"
+    }
+  ],
+  "subjects": [],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Victor tamb\u00e9m \u00e9 o Release Manager do Plone Volto e criador do Plone Aurora ,</p>",
+    "encoding": "utf8"
+  },
+  "title": "V\u00edctor Fern\u00e1ndez de Alba",
+  "type_title": "Presenter",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-14T12:23:39+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-14T12:23:42+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

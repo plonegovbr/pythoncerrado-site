@@ -1,0 +1,39 @@
+{
+  "@id": "/imagens/logo-pythoncerrado-2025.png",
+  "@type": "Image",
+  "UID": "4e7fa0e1f1004c2080e40c36b1c4cc5d",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-10-14T12:08:46+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "logo-pythoncerrado-2025.png",
+  "image": {
+    "blob_path": "4e7fa0e1f1004c2080e40c36b1c4cc5d/image/logo-pythoncerrado-2025.png",
+    "content-type": "image/png",
+    "filename": "logo-pythoncerrado-2025.png",
+    "height": 592,
+    "size": 117079,
+    "width": 1690
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-10-14T12:08:46+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "logo-pythoncerrado-2025.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

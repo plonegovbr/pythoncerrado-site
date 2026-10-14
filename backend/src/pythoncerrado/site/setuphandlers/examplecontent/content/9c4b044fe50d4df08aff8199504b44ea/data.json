@@ -1,0 +1,39 @@
+{
+  "@id": "/imagens/pythoncerrado-2026-logo-terra-vermelha-dark.png",
+  "@type": "Image",
+  "UID": "9c4b044fe50d4df08aff8199504b44ea",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-10-14T12:08:46+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "pythoncerrado-2026-logo-terra-vermelha-dark.png",
+  "image": {
+    "blob_path": "9c4b044fe50d4df08aff8199504b44ea/image/pythoncerrado-2026-logo-terra-vermelha-dark.png",
+    "content-type": "image/png",
+    "filename": "pythoncerrado-2026-logo-terra-vermelha-dark.png",
+    "height": 592,
+    "size": 69760,
+    "width": 1690
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-10-14T12:08:46+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "pythoncerrado-2026-logo-terra-vermelha-dark.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

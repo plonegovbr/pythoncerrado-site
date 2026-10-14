@@ -1,0 +1,135 @@
+{
+  "@id": "/2026/sobre/contato",
+  "@type": "Document",
+  "UID": "1c942f2b2662448d9f11cfd192515509",
+  "allow_discussion": null,
+  "blocks": {
+    "03731cd3-c1fc-47b3-944c-add98def44bc": {
+      "@type": "form",
+      "captcha": "honeypot",
+      "captcha_props": {
+        "id": "protected_1"
+      },
+      "configValidation": {
+        "required_fields": [
+          "default_to",
+          "default_from",
+          "default_subject",
+          "captcha"
+        ],
+        "schema_validation": [],
+        "valid": true
+      },
+      "default_from": "noreply@plone.org",
+      "default_subject": "Contato",
+      "default_to": "gov@plone.org.br",
+      "email_otp_verification": false,
+      "lastChange": 1748245391156,
+      "remove_data_after_days": -1,
+      "send_email": true,
+      "store": true,
+      "subblocks": [
+        {
+          "field_id": "1748244897018",
+          "field_type": "text",
+          "id": "1748244897018",
+          "label": "Seu nome",
+          "required": false
+        },
+        {
+          "field_id": "1748244967172",
+          "field_type": "from",
+          "id": "1748244967172",
+          "label": "E-mail",
+          "required": false,
+          "use_as_bcc": false,
+          "use_as_reply_to": true
+        },
+        {
+          "field_id": "1748244990821",
+          "field_type": "select",
+          "id": "1748244990821",
+          "input_values": [
+            "Inscri\u00e7\u00e3o",
+            "Patroc\u00ednio",
+            "C\u00f3digo de Conduta",
+            "Viagem / Hospedagem",
+            "Carta-Convite"
+          ],
+          "label": "Assunto",
+          "required": false
+        },
+        {
+          "field_id": "1748245044556",
+          "field_type": "textarea",
+          "id": "1748245044556",
+          "label": "Mensagem",
+          "required": false
+        }
+      ]
+    },
+    "df5bf765-628e-4378-bb83-f603b672018e": {
+      "@type": "title"
+    },
+    "f58bf892-d702-4070-a2d1-bce790b17d9e": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "df5bf765-628e-4378-bb83-f603b672018e",
+      "f58bf892-d702-4070-a2d1-bce790b17d9e",
+      "03731cd3-c1fc-47b3-944c-add98def44bc"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-05-26T07:37:38+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Entre em contato com a organiza\u00e7\u00e3o do evento",
+  "effective": "2025-05-26T07:37:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "contato",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-05-26T07:45:37+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Fale Conosco",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-05-26T07:37:38+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-05-26T07:37:44+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
