@@ -27,6 +27,7 @@
     "release-alpha": "release-it --preRelease=alpha"
   },
   "addons": [
+    "@eeacms/volto-matomo",
     "@simplesconsultoria/volto-videos",
     "@plone-collective/volto-image-editor",
     "@plone/volto-form-block",
@@ -35,6 +36,7 @@
   ],
   "theme": "@kitconcept/volto-light-theme",
   "dependencies": {
+    "@eeacms/volto-matomo": "7.0.1",
     "@fontsource/outfit": "5.3.0",
     "@kitconcept/volto-light-theme": "8.0.0",
     "@plone-collective/volto-techevent": "1.0.0-beta.2",

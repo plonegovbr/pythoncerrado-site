@@ -1346,6 +1346,9 @@ importers:
 
   packages/volto-pythoncerrado-site:
     dependencies:
+      '@eeacms/volto-matomo':
+        specifier: 7.0.1
+        version: 7.0.1(react@18.2.0)
       '@fontsource/outfit':
         specifier: 5.3.0
         version: 5.3.0
@@ -2241,6 +2244,14 @@ packages:
   '@cypress/xvfb@1.2.4':
     resolution: {integrity: sha512-skbBzPggOVYCbnGgV+0dmBdW/s77ZkAOXIC1knS8NagwDjBrNC1LuXtQJeiN6l+m7lzmHtaoUw/ctJKdqkG57Q==}
 
+  '@datapunt/matomo-tracker-js@0.3.1':
+    resolution: {integrity: sha512-JIeK7SUHlunspS+6z4wzw9YdsWv1mN2UyL10JWPHhOC45y7rTpcvmvIzkV67xdOd7qS8fE1M2e1qLBFz/dfJug==}
+
+  '@datapunt/matomo-tracker-react@0.3.1':
+    resolution: {integrity: sha512-bO2UW1lEAdoQytucM+2ufOvVbdIlBwDaQWzsHpDNc1ZRQuMENgA+6Q8gRXNrny1YasqveS5t2YyZocxyPWrmLg==}
+    peerDependencies:
+      react: '>=16.8.6 <= 16.x.x'
+
   '@discoveryjs/json-ext@0.5.7':
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
@@ -2290,6 +2301,9 @@ packages:
 
   '@eeacms/volto-accordion-block@12.0.0':
     resolution: {integrity: sha512-YaYyIt7ejz/1fOK7kLUUXXSWaU4viNRn58xE3qjpZOPBV8F3cxo2vbo+SdgC5hRuVr1bzq2V/u3km+HaHb80jA==}
+
+  '@eeacms/volto-matomo@7.0.1':
+    resolution: {integrity: sha512-obohh1BMydleAbOqx/M2+JKW1+73sMKPSNrC3a9PAzaQy3hN7ifjYcROG39wPphnHgR8IbE3Clp8zEYoqxOlPA==}
 
   '@eeacms/volto-widget-theme-picker@3.0.1':
     resolution: {integrity: sha512-f6JHJwWtCXYnrvPfrAjWKT96OHPOyU8izjqjvtTP1w4liez1qZcSkVVhKsPOcGDAXHCAKko4rxTQ0Rm4pvE2wQ==}
@@ -12558,6 +12572,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@datapunt/matomo-tracker-js@0.3.1': {}
+
+  '@datapunt/matomo-tracker-react@0.3.1(react@18.2.0)':
+    dependencies:
+      '@datapunt/matomo-tracker-js': 0.3.1
+      react: 18.2.0
+
   '@discoveryjs/json-ext@0.5.7': {}
 
   '@dnd-kit/accessibility@3.1.1(react@18.2.0)':
@@ -12612,6 +12633,12 @@ snapshots:
   '@eeacms/volto-accordion-block@12.0.0':
     dependencies:
       '@eeacms/volto-widget-theme-picker': 3.0.1
+
+  '@eeacms/volto-matomo@7.0.1(react@18.2.0)':
+    dependencies:
+      '@datapunt/matomo-tracker-react': 0.3.1(react@18.2.0)
+    transitivePeerDependencies:
+      - react
 
   '@eeacms/volto-widget-theme-picker@3.0.1': {}
 
