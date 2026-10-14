@@ -16,16 +16,16 @@
   "language": "##DEFAULT##",
   "layout": "view",
   "lock": {},
-  "modified": "2026-10-14T13:18:40+00:00",
+  "modified": "2026-10-14T15:19:09+00:00",
   "preview_caption_link": null,
   "review_state": "published",
   "room": [
     "cd6a1d379de0452f949c940a8e52462e"
   ],
   "session_audience": [
-    "f59d4635-5f42-4775-8641-9fbff8df46de",
     "1b882a1a-2f75-44bf-af32-c4095d47829c",
-    "3e0faf55-6d23-447f-bbc3-3e7636b2384a"
+    "3e0faf55-6d23-447f-bbc3-3e7636b2384a",
+    "f59d4635-5f42-4775-8641-9fbff8df46de"
   ],
   "session_language": "pt-br",
   "session_level": [

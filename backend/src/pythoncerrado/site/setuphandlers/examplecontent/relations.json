@@ -61,16 +61,6 @@
   },
   {
     "from_attribute": "isReferencing",
-    "from_uuid": "9eb2c6354923466cb44c76bf7145c97d",
-    "to_uuid": "1947831b21264c0f81083734d61e02ba"
-  },
-  {
-    "from_attribute": "isReferencing",
-    "from_uuid": "9eb2c6354923466cb44c76bf7145c97d",
-    "to_uuid": "fa9a810f91ec4a1090013601c98e2fc5"
-  },
-  {
-    "from_attribute": "isReferencing",
     "from_uuid": "cd6a1d379de0452f949c940a8e52462e",
     "to_uuid": "a6f0825a37ea47f4a82d35b242e21646"
   },

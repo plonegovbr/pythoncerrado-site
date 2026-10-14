@@ -13,7 +13,7 @@
           "Subject": [],
           "UID": "e1f4ffbb81db43059e68ea0b189cb064",
           "description": "M\u00faltiplos pap\u00e9is, contextos sobrepostos, TDAH e a vida acontecendo. Como notas em markdown, \"IA\" e um assistente chamado Zora me ajudam a navegar o dia a dia -- mas sem deixar a divers\u00e3o de lado.",
-          "effective": "2026-10-14T13:18:40+00:00",
+          "effective": "1969-12-31T03:00:00+00:00",
           "end": "2026-11-07T14:45:00+00:00",
           "getObjSize": null,
           "getRemoteUrl": null,
@@ -43,16 +43,16 @@
           ],
           "session_audience": [
             {
-              "title": "Dev",
-              "token": "f59d4635-5f42-4775-8641-9fbff8df46de"
-            },
-            {
               "title": "SysAdmin",
               "token": "1b882a1a-2f75-44bf-af32-c4095d47829c"
             },
             {
               "title": "Cientista",
               "token": "3e0faf55-6d23-447f-bbc3-3e7636b2384a"
+            },
+            {
+              "title": "Dev",
+              "token": "f59d4635-5f42-4775-8641-9fbff8df46de"
             }
           ],
           "session_language": [

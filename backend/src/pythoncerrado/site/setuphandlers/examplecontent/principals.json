@@ -1,0 +1,23 @@
+{
+  "groups": [
+  ],
+  "members": [
+    {
+      "description": "",
+      "email": "cerrado@python.org.br",
+      "fullname": "Python Cerrado",
+      "groups": [
+        "Administrators"
+      ],
+      "home_page": "",
+      "location": "Bras\u00edlia, DF, Brasil",
+      "login_name": "pythoncerrado",
+      "password": "{SSHA}N7er9Zf2fQm8b0Z10fuM218tFwekztUKRmbB",
+      "roles": [
+        "Editor",
+        "Site Administrator"
+      ],
+      "username": "pythoncerrado"
+    }
+  ]
+}
