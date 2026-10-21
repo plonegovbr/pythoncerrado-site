@@ -29,7 +29,7 @@ dependencies = [
     "plone.restapi",
     "plone.volto",
     "sc.videos>=1.0.0a2",
-    "collective.techevent>=1.0.0b3",
+    "collective.techevent>=1.0.0b4",
     "plone.formblock[honeypot]==1.0.0a3",
     "plonegovbr.socialmedia>=3.0.0",
     "sc-voltolighttheme==1.0.0a11",
