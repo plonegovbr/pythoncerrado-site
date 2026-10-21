@@ -1,0 +1,19 @@
+// The sponsor page centers the logo at a larger size than the narrow
+// container that @plone-collective/volto-techevent applies to it.
+// @simplesconsultoria/volto-light-theme sets the social network icons to the
+// footer foreground (white) on :root, which hides them on light backgrounds.
+// Sponsor links use the page colors, like the presenter links.
+body.contenttype-sponsor {
+  #sponsorLogo {
+    margin-top: 0 !important;
+    > img.responsive {
+      max-width: 600px !important;
+    }
+  }
+  .sponsorLinks {
+    --block-alignment: center;
+    --social-network-icon-color-main: var(--primary-foreground-color, #000);
+    --social-network-icon-color-hover: var(--accent-color);
+    margin-top: 20px;
+  }
+}
