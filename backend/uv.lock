@@ -770,7 +770,7 @@ wheels = [
 
 [[package]]
 name = "collective-techevent"
-version = "1.0.0b3"
+version = "1.0.0b4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "collective-z3cform-datagridfield" },
@@ -780,9 +780,9 @@ dependencies = [
     { name = "plonegovbr-socialmedia" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4f/c7/62c8afbcadc1c60ccbe8d5153fd809c7005798d249243944f7c16b77d52b/collective_techevent-1.0.0b3.tar.gz", hash = "sha256:ca9b9453bcb10d63cdb51b9f9fbfdc62f26a0853b89c328cf1f448aad760e806", size = 3585137, upload-time = "2026-10-14T21:23:18.858Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/07/ba/2ede0df71499d15412750cd72019dfbf56f583fc34b2c5870580003dbd97/collective_techevent-1.0.0b4.tar.gz", hash = "sha256:e482f0c13650e5d984c25cb377d5040925fafaac0918f935f2f4e0df283b85f1", size = 3585798, upload-time = "2026-10-20T20:26:04.093Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c7/8a/58d023d33d9df4e4cad86a577e25d5945bbfeb4c2e70f2aa39c065dcc608/collective_techevent-1.0.0b3-py3-none-any.whl", hash = "sha256:f4a059354343156eccb5660131c50633fc6fc4c03dd9eedf8e01de2cf84cc102", size = 3637196, upload-time = "2026-10-14T21:23:15.555Z" },
+    { url = "https://files.pythonhosted.org/packages/83/3d/2a2bcf68513083c574154cfe6ff9fae3046a7759b66fc835279960f205f6/collective_techevent-1.0.0b4-py3-none-any.whl", hash = "sha256:b615896a841a1e85e37ea31711d05614caf1404dd2db8d0e576e12313c08f21c", size = 3637190, upload-time = "2026-10-20T20:25:56.723Z" },
 ]
 
 [[package]]
@@ -4401,7 +4401,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "collective-techevent", specifier = ">=1.0.0b3" },
+    { name = "collective-techevent", specifier = ">=1.0.0b4" },
     { name = "plone-api" },
     { name = "plone-exportimport", specifier = ">=2.2.0" },
     { name = "plone-formblock", extras = ["honeypot"], specifier = "==1.0.0a3" },

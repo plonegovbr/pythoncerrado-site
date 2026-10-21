@@ -1,1 +1,1 @@
-Atualiza o `collective.techevent` para 1.0.0b3, que corrige a indexação de Keynotes sem duração e permite importar o conteúdo de 2025. @ericof
+Atualiza o `collective.techevent` para 1.0.0b4, que corrige a indexação de Keynotes sem duração, permite importar o conteúdo de 2025 e faz o `@schedule` de cada edição listar apenas as atividades daquela edição. @ericof
