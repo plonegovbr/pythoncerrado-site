@@ -14,7 +14,7 @@ class TestSetupInstall:
 
     def test_latest_version(self, profile_last_version):
         """Test latest version of default profile."""
-        assert profile_last_version(f"{PACKAGE_NAME}:default") == "20261013001"
+        assert profile_last_version(f"{PACKAGE_NAME}:default") == "20261021001"
 
     def test_themes_profile_installed(self, setup_tool):
         """The Themes control panel comes with sc.voltolighttheme:default."""
