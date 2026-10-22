@@ -2,7 +2,8 @@
 <registry>
 
   <!--
-    Theme records of the Python Cerrado 2026 edition. Keep in sync with
+    Theme records of the Python Cerrado editions: the three 2026 themes and
+    one theme for each past edition (2018, 2019). Keep in sync with
     pythoncerrado.site.themes.THEMES; the tests compare the two.
   -->
 
@@ -147,4 +148,97 @@
     <value key="image_color_dark">#f0a060</value>
   </records>
 
+  <records interface="sc.voltolighttheme.interfaces.ISCVLTThemeDefinition"
+           prefix="sc.voltolighttheme.theme.pythoncerrado-2018"
+  >
+    <value key="name">Python Cerrado 2018</value>
+    <value key="description">Brasília 2018: céu azul, árvore do cerrado amarela e chão de terra.</value>
+    <value key="font_family_primary">Outfit, sans-serif</value>
+    <value key="font_family_secondary">Outfit, sans-serif</value>
+    <value key="primary_color_light">#ffffff</value>
+    <value key="primary_color_dark">#10161c</value>
+    <value key="primary_foreground_color_light">#1a1f24</value>
+    <value key="primary_foreground_color_dark">#eef3f7</value>
+    <value key="primary_low_foreground_color_light">#4f5963</value>
+    <value key="primary_low_foreground_color_dark">#b9c6d1</value>
+    <value key="primary_accent_color_light">#00679e</value>
+    <value key="primary_accent_color_dark">#6cc0ec</value>
+    <value key="secondary_color_light">#1c3b56</value>
+    <value key="secondary_color_dark">#142b40</value>
+    <value key="secondary_foreground_color_light">#ffffff</value>
+    <value key="secondary_foreground_color_dark">#ffffff</value>
+    <value key="secondary_low_foreground_color_light">#c9d8e6</value>
+    <value key="secondary_low_foreground_color_dark">#c3d3e2</value>
+    <value key="secondary_accent_color_light">#ffd233</value>
+    <value key="secondary_accent_color_dark">#ffd233</value>
+    <value key="accent_color_light">#803300</value>
+    <value key="accent_color_dark">#803300</value>
+    <value key="accent_foreground_color_light">#ffffff</value>
+    <value key="accent_foreground_color_dark">#ffffff</value>
+    <value key="accent_low_foreground_color_light">#f5dccb</value>
+    <value key="accent_low_foreground_color_dark">#f5dccb</value>
+    <value key="accent_accent_color_light">#ffd233</value>
+    <value key="accent_accent_color_dark">#ffd233</value>
+    <value key="neutral_color_light">#f6f1e4</value>
+    <value key="neutral_color_dark">#182029</value>
+    <value key="neutral_foreground_color_light">#1a1f24</value>
+    <value key="neutral_foreground_color_dark">#eef3f7</value>
+    <value key="neutral_low_foreground_color_light">#4f5963</value>
+    <value key="neutral_low_foreground_color_dark">#b9c6d1</value>
+    <value key="neutral_accent_color_light">#005c8c</value>
+    <value key="neutral_accent_color_dark">#7cc6ee</value>
+    <value key="event_color_light">#00679e</value>
+    <value key="event_color_dark">#6cc0ec</value>
+    <value key="file_color_light">#6b5d4f</value>
+    <value key="file_color_dark">#b8a998</value>
+    <value key="image_color_light">#803300</value>
+    <value key="image_color_dark">#e09a6a</value>
+  </records>
+
+  <records interface="sc.voltolighttheme.interfaces.ISCVLTThemeDefinition"
+           prefix="sc.voltolighttheme.theme.pythoncerrado-2019"
+  >
+    <value key="name">Python Cerrado 2019</value>
+    <value key="description">Goiânia 2019: ipê-amarelo, céu azul e casca escura.</value>
+    <value key="font_family_primary">Outfit, sans-serif</value>
+    <value key="font_family_secondary">Outfit, sans-serif</value>
+    <value key="primary_color_light">#ffffff</value>
+    <value key="primary_color_dark">#15110d</value>
+    <value key="primary_foreground_color_light">#1e1a17</value>
+    <value key="primary_foreground_color_dark">#f5f0e8</value>
+    <value key="primary_low_foreground_color_light">#57504a</value>
+    <value key="primary_low_foreground_color_dark">#cbc2b6</value>
+    <value key="primary_accent_color_light">#2e6da4</value>
+    <value key="primary_accent_color_dark">#8cbde6</value>
+    <value key="secondary_color_light">#41210a</value>
+    <value key="secondary_color_dark">#2c1607</value>
+    <value key="secondary_foreground_color_light">#ffffff</value>
+    <value key="secondary_foreground_color_dark">#ffffff</value>
+    <value key="secondary_low_foreground_color_light">#e8d9c5</value>
+    <value key="secondary_low_foreground_color_dark">#e0d0bb</value>
+    <value key="secondary_accent_color_light">#f3dd1f</value>
+    <value key="secondary_accent_color_dark">#f3dd1f</value>
+    <value key="accent_color_light">#2e6da4</value>
+    <value key="accent_color_dark">#2e6da4</value>
+    <value key="accent_foreground_color_light">#ffffff</value>
+    <value key="accent_foreground_color_dark">#ffffff</value>
+    <value key="accent_low_foreground_color_light">#e3eef8</value>
+    <value key="accent_low_foreground_color_dark">#e3eef8</value>
+    <value key="accent_accent_color_light">#ffffff</value>
+    <value key="accent_accent_color_dark">#ffffff</value>
+    <value key="neutral_color_light">#f7f2e6</value>
+    <value key="neutral_color_dark">#211a14</value>
+    <value key="neutral_foreground_color_light">#1e1a17</value>
+    <value key="neutral_foreground_color_dark">#f5f0e8</value>
+    <value key="neutral_low_foreground_color_light">#57504a</value>
+    <value key="neutral_low_foreground_color_dark">#cbc2b6</value>
+    <value key="neutral_accent_color_light">#245a8a</value>
+    <value key="neutral_accent_color_dark">#9cc8ec</value>
+    <value key="event_color_light">#2e6da4</value>
+    <value key="event_color_dark">#8cbde6</value>
+    <value key="file_color_light">#6b5d4f</value>
+    <value key="file_color_dark">#b8a998</value>
+    <value key="image_color_light">#7a4a12</value>
+    <value key="image_color_dark">#e8c24a</value>
+  </records>
 </registry>

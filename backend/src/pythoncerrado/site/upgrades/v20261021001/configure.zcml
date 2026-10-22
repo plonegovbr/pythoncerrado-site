@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="pythoncerrado.site:default"
+      source="20261013001"
+      destination="20261021001"
+      >
+    <genericsetup:upgradeStep
+        title="Add the themes of the 2018 and 2019 editions"
+        description="Create the pythoncerrado-2018 and pythoncerrado-2019 theme records"
+        handler=".add_edition_themes"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>

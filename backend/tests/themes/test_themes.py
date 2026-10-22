@@ -1,4 +1,4 @@
-"""The Python Cerrado 2026 themes, as the default profile installs them."""
+"""The Python Cerrado themes, as the default profile installs them."""
 
 from pythoncerrado.site.themes import THEMES
 from sc.voltolighttheme.utils import themes
@@ -17,7 +17,7 @@ class TestThemes:
         assert themes.theme_values(theme_id) == THEMES[theme_id]
 
     def test_theme_ids(self):
-        """The add-on's default theme stays alongside the three 2026 themes."""
+        """The add-on's default theme stays alongside the edition themes."""
         assert themes.theme_ids() == sorted([*THEMES, themes.DEFAULT_THEME_ID])
 
     @pytest.mark.parametrize("theme_id", sorted(THEMES))
