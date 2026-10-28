@@ -1,0 +1,1 @@
+Atualiza o `@plone-collective/volto-techevent` para 1.0.0-beta.5, com ícones para todos os tipos de conteúdo, foto do palestrante com link para a página do palestrante e cronograma que mostra todas as linhas até o último horário do dia. @ericof
