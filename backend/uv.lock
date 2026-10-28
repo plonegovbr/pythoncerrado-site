@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.14"
 
 [manifest]
@@ -770,7 +770,7 @@ wheels = [
 
 [[package]]
 name = "collective-techevent"
-version = "1.0.0b4"
+version = "1.0.0b5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "collective-z3cform-datagridfield" },
@@ -780,9 +780,9 @@ dependencies = [
     { name = "plonegovbr-socialmedia" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/07/ba/2ede0df71499d15412750cd72019dfbf56f583fc34b2c5870580003dbd97/collective_techevent-1.0.0b4.tar.gz", hash = "sha256:e482f0c13650e5d984c25cb377d5040925fafaac0918f935f2f4e0df283b85f1", size = 3585798, upload-time = "2026-10-20T20:26:04.093Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ab/e8/a6081d22b1eec032de7729182147f3b364282b3d7e1628d090cc5a424d93/collective_techevent-1.0.0b5.tar.gz", hash = "sha256:7a210e41bdbdca9d6c87bc44c3962345cf14c676382332d5cc609ebadc7422e1", size = 3588407, upload-time = "2026-10-28T17:36:20.787Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/83/3d/2a2bcf68513083c574154cfe6ff9fae3046a7759b66fc835279960f205f6/collective_techevent-1.0.0b4-py3-none-any.whl", hash = "sha256:b615896a841a1e85e37ea31711d05614caf1404dd2db8d0e576e12313c08f21c", size = 3637190, upload-time = "2026-10-20T20:25:56.723Z" },
+    { url = "https://files.pythonhosted.org/packages/3d/fc/fcd508a8bd1e64e9bbf14c37eb36124c24a7495399ecb7d81bfc06cdf053/collective_techevent-1.0.0b5-py3-none-any.whl", hash = "sha256:4e2e9fa11d27978ffd6b987e25859b1ce1661b5753edbed5a72e71e0f106056b", size = 3638796, upload-time = "2026-10-28T17:36:15.292Z" },
 ]
 
 [[package]]
@@ -4370,6 +4370,7 @@ wheels = [
 [[package]]
 name = "pythoncerrado-site"
 source = { editable = "." }
+default-groups = ["test"]
 dependencies = [
     { name = "collective-techevent" },
     { name = "plone-api" },
@@ -4401,7 +4402,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "collective-techevent", specifier = ">=1.0.0b4" },
+    { name = "collective-techevent", specifier = ">=1.0.0b5" },
     { name = "plone-api" },
     { name = "plone-exportimport", specifier = ">=2.2.0" },
     { name = "plone-formblock", extras = ["honeypot"], specifier = "==1.0.0a3" },

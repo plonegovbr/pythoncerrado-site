@@ -1,0 +1,1 @@
+Atualiza o `collective.techevent` para 1.0.0b5, que divide os treinamentos de dia inteiro em torno dos intervalos no `@schedule`, para que o almoço não fique sobreposto aos blocos da manhã e da tarde. @ericof
