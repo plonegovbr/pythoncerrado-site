@@ -1,6 +1,8 @@
-// @simplesconsultoria/volto-light-theme sets the social network icons to the
-// footer foreground (white) on :root, which hides them on light backgrounds.
-// Presenter links (presenter page and presenter tiles) use the page colors.
+// The social network icons use the page colors here (presenter page and
+// presenter tiles), not the colors of the header or footer. Since
+// @simplesconsultoria/volto-light-theme 1.0.0a16 those colors apply only to the
+// header, the mobile tools menu and the footer, so this rule keeps the
+// presenter links on the page colors.
 .presenterLinks {
   --social-network-icon-color-main: var(--primary-foreground-color, #000);
   --social-network-icon-color-hover: var(

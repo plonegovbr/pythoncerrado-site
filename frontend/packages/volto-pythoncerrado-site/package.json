@@ -42,7 +42,7 @@
     "@plone/components": "workspace:*",
     "@plone-collective/volto-image-editor": "1.0.1",
     "@plone/volto-form-block": "1.0.0-alpha.3",
-    "@simplesconsultoria/volto-light-theme": "1.0.0-alpha.14",
+    "@simplesconsultoria/volto-light-theme": "1.0.0-alpha.16",
     "@simplesconsultoria/volto-videos": "1.0.0-alpha.5"
   },
   "peerDependencies": {
