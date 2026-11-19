@@ -1,0 +1,1 @@
+Corrige as cores dos modos escuro e alto contraste: títulos, listas, links, nome do palestrante e descrição da palestra deixam de ficar pretos ou ilegíveis, e os logos de patrocinadores ganham fundo branco. As cores ficam em variáveis no `_root.scss`. @ericof

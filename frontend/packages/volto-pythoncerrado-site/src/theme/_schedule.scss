@@ -30,3 +30,15 @@
     }
   }
 }
+
+// Session pages: @plone-collective/volto-techevent paints the description
+// with a fixed #666, unreadable in the dark modes.
+#main .session-view .sessionDescription {
+  color: var(--pythoncerrado-text-low-color);
+}
+
+// The presenter name below the photo uses --secondary-foreground-color, which
+// is the white footer text in this theme: invisible in light mode.
+#main .session-view .presenterTitle .title {
+  color: var(--link-foreground-color);
+}

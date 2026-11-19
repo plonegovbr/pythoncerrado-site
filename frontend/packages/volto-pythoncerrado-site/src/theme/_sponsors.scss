@@ -17,3 +17,8 @@ body.contenttype-sponsor {
     margin-top: 20px;
   }
 }
+
+// Logos keep a white tile in the dark modes
+.sponsor-levels .sponsorList .sponsorTile {
+  background-color: var(--pythoncerrado-sponsor-tile-background-color);
+}
