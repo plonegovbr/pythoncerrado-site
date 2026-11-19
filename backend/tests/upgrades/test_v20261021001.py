@@ -40,10 +40,14 @@ class TestUpgrade:
             step["step"].doStep(self.setup_tool)
 
     def test_available(self):
-        """The site at the source version is offered exactly this step."""
+        """The site at the source version is offered exactly this step first.
+
+        The steps of later versions follow it, from their own source.
+        """
         steps = self._steps()
 
-        assert [(s["ssource"], s["sdest"]) for s in steps] == [(SOURCE, DESTINATION)]
+        pairs = [(s["ssource"], s["sdest"]) for s in steps]
+        assert [pair for pair in pairs if pair[0] == SOURCE] == [(SOURCE, DESTINATION)]
 
     @pytest.mark.parametrize("theme_id", THEME_IDS)
     def test_creates_the_theme(self, theme_id: str):

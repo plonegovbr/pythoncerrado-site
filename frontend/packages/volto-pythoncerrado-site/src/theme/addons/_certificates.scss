@@ -1,0 +1,10 @@
+// The views of @plone-collective/volto-certificates render inside a Volto
+// container as wide as the layout. Keep them at the content width, like the
+// other pages.
+.container.certificate-template-view,
+.container.certificate-view {
+  width: auto;
+  max-width: var(--default-container-width);
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -1,0 +1,1 @@
+Instala o collective.certificates e cria a pasta `/2026/certificados`, fora da navegação, com os templates de certificado de palestrante e participante da Python Cerrado e de participante do Cerrado Sprint, na fonte Outfit e com uma assinatura provisória. Inclui o passo de atualização 20261119001. @ericof

@@ -32,6 +32,7 @@
     "@plone-collective/volto-image-editor",
     "@plone/volto-form-block",
     "@plone-collective/volto-techevent",
+    "@plone-collective/volto-certificates",
     "@simplesconsultoria/volto-light-theme"
   ],
   "theme": "@kitconcept/volto-light-theme",
@@ -39,6 +40,7 @@
     "@eeacms/volto-matomo": "7.0.1",
     "@fontsource/outfit": "5.3.0",
     "@plone-collective/volto-techevent": "1.0.0-beta.5",
+    "@plone-collective/volto-certificates": "1.0.0-alpha.1",
     "@plone/components": "workspace:*",
     "@plone-collective/volto-image-editor": "1.0.1",
     "@plone/volto-form-block": "1.0.0-alpha.3",

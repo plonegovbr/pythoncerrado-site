@@ -1,0 +1,23 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="pythoncerrado.site:default"
+      source="20261021001"
+      destination="20261119001"
+      >
+    <genericsetup:upgradeStep
+        title="Install collective.certificates"
+        description="Install the add-on, point it at the Outfit fonts, and let Manager and Site Administrator add certificate templates and certificates"
+        handler=".install_certificates"
+        />
+    <genericsetup:upgradeStep
+        title="Add the certificates folder"
+        description="Create /2026/certificados, out of the navigation, with the speaker, attendee and sprint certificate templates"
+        handler=".add_certificates_folder"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>
