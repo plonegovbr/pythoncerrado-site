@@ -8,5 +8,6 @@
   <include package="sc.voltolighttheme" />
   <include package="plonegovbr.socialmedia" />
   <include package="collective.techevent" />
+  <include package="collective.certificates" />
 
 </configure>

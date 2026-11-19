@@ -1,5 +1,24 @@
+// Site colors that follow the selected mode (light, dark and high contrast).
+// Change them here; the rules in the other partials only read them.
+body {
+  // Text without a color of its own. Volto sets `body { color: #000 }`, which
+  // left headings, lists and icons black in the dark modes.
+  --pythoncerrado-text-color: var(--primary-foreground-color);
+  --pythoncerrado-text-low-color: var(--primary-low-foreground-color);
+  // Links: accent color in light mode, white in dark and high contrast
+  --pythoncerrado-link-color-light: var(--accent-color);
+  --pythoncerrado-link-color-dark: var(--pure-white);
+  // Sponsor logos are made for a white background, in every mode
+  --pythoncerrado-sponsor-tile-background-color: var(--pure-white);
+
+  color: var(--pythoncerrado-text-color);
+}
+
 body.section-2026 {
-  --link-foreground-color: var(--accent-color);
+  --link-foreground-color: light-dark(
+    var(--pythoncerrado-link-color-light),
+    var(--pythoncerrado-link-color-dark)
+  );
 
   // Tech Event colors follow the selected theme (light and dark modes)
   --techevent-presenter-category-background-color: var(--neutral-color);

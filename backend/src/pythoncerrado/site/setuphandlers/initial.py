@@ -3,6 +3,7 @@ from plone import api
 from plone.exportimport import importers
 from Products.GenericSetup.tool import SetupTool
 from pythoncerrado.site import logger
+from pythoncerrado.site.certificates import create_certificates
 
 import json
 
@@ -45,3 +46,4 @@ def create_example_content(portal_setup: SetupTool):
     updated = restore_rooms(EXAMPLE_CONTENT_FOLDER)
     if updated:
         logger.info(f"Restored the room of {updated} schedule slot(s)")
+    create_certificates(portal)
